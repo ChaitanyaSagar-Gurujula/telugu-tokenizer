@@ -226,18 +226,27 @@ class BPETokenizer:
         text_bytes = text.encode('utf-8')
         
         while i < len(text_bytes):
-            # Try to find the longest matching sequence
+            # If we're at a leading space, encode it separately
+            if text_bytes[i] == 32:  # ASCII space
+                final_tokens.append(32)  # Space token
+                i += 1
+                continue
+            
+            # Try to find the longest matching sequence (including potential trailing spaces)
             longest_match = None
             longest_length = 0
             matched_token = None
             
-            # Try different lengths starting from the current position
-            for token_id, token_bytes in self.vocab.items():
-                if text_bytes[i:].startswith(token_bytes):
-                    if len(token_bytes) > longest_length:
-                        longest_length = len(token_bytes)
-                        longest_match = token_bytes
-                        matched_token = token_id
+            # Sort vocab items by length (longest first)
+            for token_id, token_bytes in sorted(self.vocab.items(), 
+                                              key=lambda x: len(x[1]), 
+                                              reverse=True):
+                if (i + len(token_bytes) <= len(text_bytes) and 
+                    text_bytes[i:i+len(token_bytes)] == token_bytes):
+                    longest_length = len(token_bytes)
+                    longest_match = token_bytes
+                    matched_token = token_id
+                    break
             
             if longest_match:
                 final_tokens.append(matched_token)

@@ -47,37 +47,56 @@ async def home(request: Request):
 async def tokenize(request: TokenizeRequest):
     text = request.text
     try:
-        # Use the BPE tokenizer's encode method
         tokens = tokenizer.encode(text)
-        
-        # Use the BPE tokenizer's decode method
         decoded = tokenizer.decode(tokens)
         
         # Get token details from vocabulary for display
         token_details = []
-        words = text.split()
         current_position = 0
+        current_byte_position = 0
+        text_bytes = text.encode('utf-8')
         
-        for word in words:
-            # Find tokens that make up this word
+        while current_position < len(tokens):
+            # Skip leading spaces in original text
+            while current_byte_position < len(text_bytes) and text_bytes[current_byte_position] == 32:
+                current_byte_position += 1
+            
+            # Get next word from original text
+            word_start = current_byte_position
+            word_end = word_start
+            while word_end < len(text_bytes) and text_bytes[word_end] != 32:
+                word_end += 1
+            
+            word_bytes = text_bytes[word_start:word_end]
+            word = word_bytes.decode('utf-8')
+            
+            # Collect tokens for this word
             word_tokens = []
-            word_length = len(word.encode('utf-8'))
-            while current_position < len(tokens) and len(''.join(
-                vocab_data.get(str(t), {}).get('text', '') 
-                for t in word_tokens
-            ).encode('utf-8')) < word_length:
-                word_tokens.append(tokens[current_position])
+            decoded_bytes = b''
+            
+            while current_position < len(tokens):
+                token = tokens[current_position]
+                token_bytes = tokenizer.vocab[token]
+                
+                # If we've collected enough bytes for the word (plus possible space)
+                if len(decoded_bytes) >= len(word_bytes):
+                    break
+                
+                word_tokens.append(token)
+                decoded_bytes += token_bytes
                 current_position += 1
             
+            # Update byte position for next word
+            current_byte_position = word_end
+            
+            # Add word and its tokens to details
             token_details.append({
                 "word": word,
                 "type": "subword_tokens",
-                "tokens": [
-                    {
-                        "id": t,
-                        "text": vocab_data.get(str(t), {}).get('text', '[UNKNOWN]')
-                    } for t in word_tokens
-                ]
+                "tokens": [{
+                    "id": t,
+                    "text": vocab_data.get(str(t), {}).get('text', '[UNKNOWN]')
+                } for t in word_tokens]
             })
         
         return {

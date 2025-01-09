@@ -35,15 +35,17 @@
                     <div>
                         <span class="font-medium">Token Details:</span>
                         <div id="token-details" class="bg-gray-100 p-2 rounded mt-1 overflow-x-auto">
-                            <table class="min-w-full">
-                                <thead>
-                                    <tr class="border-b">
-                                        <th class="text-left p-2">Word</th>
-                                        <th class="text-left p-2">Type</th>
-                                        <th class="text-left p-2">Token Info</th>
+                            <table class="min-w-full bg-white border rounded-lg overflow-hidden table-fixed">
+                                <thead class="bg-gray-100">
+                                    <tr>
+                                        <th class="px-4 py-2 text-left w-1/4">Word</th>
+                                        <th class="px-4 py-2 text-left w-1/4">Type</th>
+                                        <th class="px-4 py-2 text-left w-2/4">Token Details</th>
                                     </tr>
                                 </thead>
-                                <tbody id="token-details-body"></tbody>
+                                <tbody id="token-details-body">
+                                    <!-- Token details will be inserted here -->
+                                </tbody>
                             </table>
                         </div>
                     </div>
@@ -77,17 +79,44 @@
                 
                 data.token_details.forEach(detail => {
                     const row = document.createElement('tr');
-                    row.className = 'border-b';
+                    row.className = 'border-b hover:bg-gray-50';
                     
-                    const tokenInfo = detail.tokens.map(t => 
-                        `ID ${t.id}: "${t.text}"`
-                    ).join('<br>');
+                    // Create table cells
+                    const wordCell = document.createElement('td');
+                    const typeCell = document.createElement('td');
+                    const tokenCell = document.createElement('td');
                     
-                    row.innerHTML = `
-                        <td class="p-2">${detail.word}</td>
-                        <td class="p-2">${detail.type}</td>
-                        <td class="p-2">${tokenInfo}</td>
-                    `;
+                    // Set cell classes for vertical alignment and wrapping
+                    wordCell.className = 'px-4 py-2 align-top font-mono border-r';
+                    typeCell.className = 'px-4 py-2 align-top border-r';
+                    tokenCell.className = 'px-4 py-2 align-top font-mono';
+                    
+                    // Set content
+                    wordCell.textContent = detail.word;
+                    typeCell.textContent = detail.type;
+                    
+                    // Create a container for token details to ensure proper spacing
+                    const tokenList = document.createElement('div');
+                    tokenList.className = 'space-y-1';
+                    
+                    if (detail.type === 'complete_word') {
+                        const tokenDiv = document.createElement('div');
+                        tokenDiv.textContent = `ID ${detail.token_id}: "${detail.text}"`;
+                        tokenList.appendChild(tokenDiv);
+                    } else if (detail.type === 'subword_tokens') {
+                        detail.tokens.forEach(t => {
+                            const tokenDiv = document.createElement('div');
+                            tokenDiv.textContent = `ID ${t.id}: "${t.text}"`;
+                            tokenList.appendChild(tokenDiv);
+                        });
+                    }
+                    
+                    tokenCell.appendChild(tokenList);
+                    
+                    // Add cells to row
+                    row.appendChild(wordCell);
+                    row.appendChild(typeCell);
+                    row.appendChild(tokenCell);
                     
                     detailsBody.appendChild(row);
                 });
