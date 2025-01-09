@@ -1,0 +1,3330 @@
+{
+  "0": {
+    "text": "\u0000",
+    "bytes": [
+      0
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '\\x00'"
+  },
+  "1": {
+    "text": "\u0001",
+    "bytes": [
+      1
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '\\x01'"
+  },
+  "2": {
+    "text": "\u0002",
+    "bytes": [
+      2
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '\\x02'"
+  },
+  "3": {
+    "text": "\u0003",
+    "bytes": [
+      3
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '\\x03'"
+  },
+  "4": {
+    "text": "\u0004",
+    "bytes": [
+      4
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '\\x04'"
+  },
+  "5": {
+    "text": "\u0005",
+    "bytes": [
+      5
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '\\x05'"
+  },
+  "6": {
+    "text": "\u0006",
+    "bytes": [
+      6
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '\\x06'"
+  },
+  "7": {
+    "text": "\u0007",
+    "bytes": [
+      7
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '\\x07'"
+  },
+  "8": {
+    "text": "\b",
+    "bytes": [
+      8
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '\\x08'"
+  },
+  "9": {
+    "text": "\t",
+    "bytes": [
+      9
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '\\t'"
+  },
+  "10": {
+    "text": "\n",
+    "bytes": [
+      10
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '\\n'"
+  },
+  "11": {
+    "text": "\u000b",
+    "bytes": [
+      11
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '\\x0b'"
+  },
+  "12": {
+    "text": "\f",
+    "bytes": [
+      12
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '\\x0c'"
+  },
+  "13": {
+    "text": "\r",
+    "bytes": [
+      13
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '\\r'"
+  },
+  "14": {
+    "text": "\u000e",
+    "bytes": [
+      14
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '\\x0e'"
+  },
+  "15": {
+    "text": "\u000f",
+    "bytes": [
+      15
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '\\x0f'"
+  },
+  "16": {
+    "text": "\u0010",
+    "bytes": [
+      16
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '\\x10'"
+  },
+  "17": {
+    "text": "\u0011",
+    "bytes": [
+      17
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '\\x11'"
+  },
+  "18": {
+    "text": "\u0012",
+    "bytes": [
+      18
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '\\x12'"
+  },
+  "19": {
+    "text": "\u0013",
+    "bytes": [
+      19
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '\\x13'"
+  },
+  "20": {
+    "text": "\u0014",
+    "bytes": [
+      20
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '\\x14'"
+  },
+  "21": {
+    "text": "\u0015",
+    "bytes": [
+      21
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '\\x15'"
+  },
+  "22": {
+    "text": "\u0016",
+    "bytes": [
+      22
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '\\x16'"
+  },
+  "23": {
+    "text": "\u0017",
+    "bytes": [
+      23
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '\\x17'"
+  },
+  "24": {
+    "text": "\u0018",
+    "bytes": [
+      24
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '\\x18'"
+  },
+  "25": {
+    "text": "\u0019",
+    "bytes": [
+      25
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '\\x19'"
+  },
+  "26": {
+    "text": "\u001a",
+    "bytes": [
+      26
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '\\x1a'"
+  },
+  "27": {
+    "text": "\u001b",
+    "bytes": [
+      27
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '\\x1b'"
+  },
+  "28": {
+    "text": "\u001c",
+    "bytes": [
+      28
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '\\x1c'"
+  },
+  "29": {
+    "text": "\u001d",
+    "bytes": [
+      29
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '\\x1d'"
+  },
+  "30": {
+    "text": "\u001e",
+    "bytes": [
+      30
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '\\x1e'"
+  },
+  "31": {
+    "text": "\u001f",
+    "bytes": [
+      31
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '\\x1f'"
+  },
+  "32": {
+    "text": " ",
+    "bytes": [
+      32
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: ' '"
+  },
+  "33": {
+    "text": "!",
+    "bytes": [
+      33
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '!'"
+  },
+  "34": {
+    "text": "\"",
+    "bytes": [
+      34
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '\"'"
+  },
+  "35": {
+    "text": "#",
+    "bytes": [
+      35
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '#'"
+  },
+  "36": {
+    "text": "$",
+    "bytes": [
+      36
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '$'"
+  },
+  "37": {
+    "text": "%",
+    "bytes": [
+      37
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '%'"
+  },
+  "38": {
+    "text": "&",
+    "bytes": [
+      38
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '&'"
+  },
+  "39": {
+    "text": "'",
+    "bytes": [
+      39
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: \"'\""
+  },
+  "40": {
+    "text": "(",
+    "bytes": [
+      40
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '('"
+  },
+  "41": {
+    "text": ")",
+    "bytes": [
+      41
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: ')'"
+  },
+  "42": {
+    "text": "*",
+    "bytes": [
+      42
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '*'"
+  },
+  "43": {
+    "text": "+",
+    "bytes": [
+      43
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '+'"
+  },
+  "44": {
+    "text": ",",
+    "bytes": [
+      44
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: ','"
+  },
+  "45": {
+    "text": "-",
+    "bytes": [
+      45
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '-'"
+  },
+  "46": {
+    "text": ".",
+    "bytes": [
+      46
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '.'"
+  },
+  "47": {
+    "text": "/",
+    "bytes": [
+      47
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '/'"
+  },
+  "48": {
+    "text": "0",
+    "bytes": [
+      48
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '0'"
+  },
+  "49": {
+    "text": "1",
+    "bytes": [
+      49
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '1'"
+  },
+  "50": {
+    "text": "2",
+    "bytes": [
+      50
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '2'"
+  },
+  "51": {
+    "text": "3",
+    "bytes": [
+      51
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '3'"
+  },
+  "52": {
+    "text": "4",
+    "bytes": [
+      52
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '4'"
+  },
+  "53": {
+    "text": "5",
+    "bytes": [
+      53
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '5'"
+  },
+  "54": {
+    "text": "6",
+    "bytes": [
+      54
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '6'"
+  },
+  "55": {
+    "text": "7",
+    "bytes": [
+      55
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '7'"
+  },
+  "56": {
+    "text": "8",
+    "bytes": [
+      56
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '8'"
+  },
+  "57": {
+    "text": "9",
+    "bytes": [
+      57
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '9'"
+  },
+  "58": {
+    "text": ":",
+    "bytes": [
+      58
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: ':'"
+  },
+  "59": {
+    "text": ";",
+    "bytes": [
+      59
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: ';'"
+  },
+  "60": {
+    "text": "<",
+    "bytes": [
+      60
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '<'"
+  },
+  "61": {
+    "text": "=",
+    "bytes": [
+      61
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '='"
+  },
+  "62": {
+    "text": ">",
+    "bytes": [
+      62
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '>'"
+  },
+  "63": {
+    "text": "?",
+    "bytes": [
+      63
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '?'"
+  },
+  "64": {
+    "text": "@",
+    "bytes": [
+      64
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '@'"
+  },
+  "65": {
+    "text": "A",
+    "bytes": [
+      65
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'A'"
+  },
+  "66": {
+    "text": "B",
+    "bytes": [
+      66
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'B'"
+  },
+  "67": {
+    "text": "C",
+    "bytes": [
+      67
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'C'"
+  },
+  "68": {
+    "text": "D",
+    "bytes": [
+      68
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'D'"
+  },
+  "69": {
+    "text": "E",
+    "bytes": [
+      69
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'E'"
+  },
+  "70": {
+    "text": "F",
+    "bytes": [
+      70
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'F'"
+  },
+  "71": {
+    "text": "G",
+    "bytes": [
+      71
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'G'"
+  },
+  "72": {
+    "text": "H",
+    "bytes": [
+      72
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'H'"
+  },
+  "73": {
+    "text": "I",
+    "bytes": [
+      73
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'I'"
+  },
+  "74": {
+    "text": "J",
+    "bytes": [
+      74
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'J'"
+  },
+  "75": {
+    "text": "K",
+    "bytes": [
+      75
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'K'"
+  },
+  "76": {
+    "text": "L",
+    "bytes": [
+      76
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'L'"
+  },
+  "77": {
+    "text": "M",
+    "bytes": [
+      77
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'M'"
+  },
+  "78": {
+    "text": "N",
+    "bytes": [
+      78
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'N'"
+  },
+  "79": {
+    "text": "O",
+    "bytes": [
+      79
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'O'"
+  },
+  "80": {
+    "text": "P",
+    "bytes": [
+      80
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'P'"
+  },
+  "81": {
+    "text": "Q",
+    "bytes": [
+      81
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'Q'"
+  },
+  "82": {
+    "text": "R",
+    "bytes": [
+      82
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'R'"
+  },
+  "83": {
+    "text": "S",
+    "bytes": [
+      83
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'S'"
+  },
+  "84": {
+    "text": "T",
+    "bytes": [
+      84
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'T'"
+  },
+  "85": {
+    "text": "U",
+    "bytes": [
+      85
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'U'"
+  },
+  "86": {
+    "text": "V",
+    "bytes": [
+      86
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'V'"
+  },
+  "87": {
+    "text": "W",
+    "bytes": [
+      87
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'W'"
+  },
+  "88": {
+    "text": "X",
+    "bytes": [
+      88
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'X'"
+  },
+  "89": {
+    "text": "Y",
+    "bytes": [
+      89
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'Y'"
+  },
+  "90": {
+    "text": "Z",
+    "bytes": [
+      90
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'Z'"
+  },
+  "91": {
+    "text": "[",
+    "bytes": [
+      91
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '['"
+  },
+  "92": {
+    "text": "\\",
+    "bytes": [
+      92
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '\\\\'"
+  },
+  "93": {
+    "text": "]",
+    "bytes": [
+      93
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: ']'"
+  },
+  "94": {
+    "text": "^",
+    "bytes": [
+      94
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '^'"
+  },
+  "95": {
+    "text": "_",
+    "bytes": [
+      95
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '_'"
+  },
+  "96": {
+    "text": "`",
+    "bytes": [
+      96
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '`'"
+  },
+  "97": {
+    "text": "a",
+    "bytes": [
+      97
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'a'"
+  },
+  "98": {
+    "text": "b",
+    "bytes": [
+      98
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'b'"
+  },
+  "99": {
+    "text": "c",
+    "bytes": [
+      99
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'c'"
+  },
+  "100": {
+    "text": "d",
+    "bytes": [
+      100
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'd'"
+  },
+  "101": {
+    "text": "e",
+    "bytes": [
+      101
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'e'"
+  },
+  "102": {
+    "text": "f",
+    "bytes": [
+      102
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'f'"
+  },
+  "103": {
+    "text": "g",
+    "bytes": [
+      103
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'g'"
+  },
+  "104": {
+    "text": "h",
+    "bytes": [
+      104
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'h'"
+  },
+  "105": {
+    "text": "i",
+    "bytes": [
+      105
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'i'"
+  },
+  "106": {
+    "text": "j",
+    "bytes": [
+      106
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'j'"
+  },
+  "107": {
+    "text": "k",
+    "bytes": [
+      107
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'k'"
+  },
+  "108": {
+    "text": "l",
+    "bytes": [
+      108
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'l'"
+  },
+  "109": {
+    "text": "m",
+    "bytes": [
+      109
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'm'"
+  },
+  "110": {
+    "text": "n",
+    "bytes": [
+      110
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'n'"
+  },
+  "111": {
+    "text": "o",
+    "bytes": [
+      111
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'o'"
+  },
+  "112": {
+    "text": "p",
+    "bytes": [
+      112
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'p'"
+  },
+  "113": {
+    "text": "q",
+    "bytes": [
+      113
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'q'"
+  },
+  "114": {
+    "text": "r",
+    "bytes": [
+      114
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'r'"
+  },
+  "115": {
+    "text": "s",
+    "bytes": [
+      115
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 's'"
+  },
+  "116": {
+    "text": "t",
+    "bytes": [
+      116
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 't'"
+  },
+  "117": {
+    "text": "u",
+    "bytes": [
+      117
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'u'"
+  },
+  "118": {
+    "text": "v",
+    "bytes": [
+      118
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'v'"
+  },
+  "119": {
+    "text": "w",
+    "bytes": [
+      119
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'w'"
+  },
+  "120": {
+    "text": "x",
+    "bytes": [
+      120
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'x'"
+  },
+  "121": {
+    "text": "y",
+    "bytes": [
+      121
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'y'"
+  },
+  "122": {
+    "text": "z",
+    "bytes": [
+      122
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: 'z'"
+  },
+  "123": {
+    "text": "{",
+    "bytes": [
+      123
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '{'"
+  },
+  "124": {
+    "text": "|",
+    "bytes": [
+      124
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '|'"
+  },
+  "125": {
+    "text": "}",
+    "bytes": [
+      125
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '}'"
+  },
+  "126": {
+    "text": "~",
+    "bytes": [
+      126
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '~'"
+  },
+  "127": {
+    "text": "",
+    "bytes": [
+      127
+    ],
+    "type": "ASCII",
+    "description": "ASCII character: '\\x7f'"
+  },
+  "344": {
+    "text": "ౘ",
+    "bytes": [
+      224,
+      177,
+      152
+    ],
+    "type": "Additional Telugu consonants",
+    "description": "Telugu character: ౘ (0xc58)"
+  },
+  "345": {
+    "text": "ౙ",
+    "bytes": [
+      224,
+      177,
+      153
+    ],
+    "type": "Additional Telugu consonants",
+    "description": "Telugu character: ౙ (0xc59)"
+  },
+  "346": {
+    "text": "ౚ",
+    "bytes": [
+      224,
+      177,
+      154
+    ],
+    "type": "Additional Telugu consonants",
+    "description": "Telugu character: ౚ (0xc5a)"
+  },
+  "128": {
+    "text": "[Bytes: [128]]",
+    "bytes": [
+      128
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0x80"
+  },
+  "129": {
+    "text": "[Bytes: [129]]",
+    "bytes": [
+      129
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0x81"
+  },
+  "130": {
+    "text": "[Bytes: [130]]",
+    "bytes": [
+      130
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0x82"
+  },
+  "131": {
+    "text": "[Bytes: [131]]",
+    "bytes": [
+      131
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0x83"
+  },
+  "132": {
+    "text": "[Bytes: [132]]",
+    "bytes": [
+      132
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0x84"
+  },
+  "133": {
+    "text": "[Bytes: [133]]",
+    "bytes": [
+      133
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0x85"
+  },
+  "134": {
+    "text": "[Bytes: [134]]",
+    "bytes": [
+      134
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0x86"
+  },
+  "135": {
+    "text": "[Bytes: [135]]",
+    "bytes": [
+      135
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0x87"
+  },
+  "136": {
+    "text": "[Bytes: [136]]",
+    "bytes": [
+      136
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0x88"
+  },
+  "137": {
+    "text": "[Bytes: [137]]",
+    "bytes": [
+      137
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0x89"
+  },
+  "138": {
+    "text": "[Bytes: [138]]",
+    "bytes": [
+      138
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0x8a"
+  },
+  "139": {
+    "text": "[Bytes: [139]]",
+    "bytes": [
+      139
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0x8b"
+  },
+  "140": {
+    "text": "[Bytes: [140]]",
+    "bytes": [
+      140
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0x8c"
+  },
+  "141": {
+    "text": "[Bytes: [141]]",
+    "bytes": [
+      141
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0x8d"
+  },
+  "142": {
+    "text": "[Bytes: [142]]",
+    "bytes": [
+      142
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0x8e"
+  },
+  "143": {
+    "text": "[Bytes: [143]]",
+    "bytes": [
+      143
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0x8f"
+  },
+  "144": {
+    "text": "[Bytes: [144]]",
+    "bytes": [
+      144
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0x90"
+  },
+  "145": {
+    "text": "[Bytes: [145]]",
+    "bytes": [
+      145
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0x91"
+  },
+  "146": {
+    "text": "[Bytes: [146]]",
+    "bytes": [
+      146
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0x92"
+  },
+  "147": {
+    "text": "[Bytes: [147]]",
+    "bytes": [
+      147
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0x93"
+  },
+  "148": {
+    "text": "[Bytes: [148]]",
+    "bytes": [
+      148
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0x94"
+  },
+  "149": {
+    "text": "[Bytes: [149]]",
+    "bytes": [
+      149
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0x95"
+  },
+  "150": {
+    "text": "[Bytes: [150]]",
+    "bytes": [
+      150
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0x96"
+  },
+  "151": {
+    "text": "[Bytes: [151]]",
+    "bytes": [
+      151
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0x97"
+  },
+  "152": {
+    "text": "[Bytes: [152]]",
+    "bytes": [
+      152
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0x98"
+  },
+  "153": {
+    "text": "[Bytes: [153]]",
+    "bytes": [
+      153
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0x99"
+  },
+  "154": {
+    "text": "[Bytes: [154]]",
+    "bytes": [
+      154
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0x9a"
+  },
+  "155": {
+    "text": "[Bytes: [155]]",
+    "bytes": [
+      155
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0x9b"
+  },
+  "156": {
+    "text": "[Bytes: [156]]",
+    "bytes": [
+      156
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0x9c"
+  },
+  "157": {
+    "text": "[Bytes: [157]]",
+    "bytes": [
+      157
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0x9d"
+  },
+  "158": {
+    "text": "[Bytes: [158]]",
+    "bytes": [
+      158
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0x9e"
+  },
+  "159": {
+    "text": "[Bytes: [159]]",
+    "bytes": [
+      159
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0x9f"
+  },
+  "160": {
+    "text": "[Bytes: [160]]",
+    "bytes": [
+      160
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xa0"
+  },
+  "161": {
+    "text": "[Bytes: [161]]",
+    "bytes": [
+      161
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xa1"
+  },
+  "162": {
+    "text": "[Bytes: [162]]",
+    "bytes": [
+      162
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xa2"
+  },
+  "163": {
+    "text": "[Bytes: [163]]",
+    "bytes": [
+      163
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xa3"
+  },
+  "164": {
+    "text": "[Bytes: [164]]",
+    "bytes": [
+      164
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xa4"
+  },
+  "165": {
+    "text": "[Bytes: [165]]",
+    "bytes": [
+      165
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xa5"
+  },
+  "166": {
+    "text": "[Bytes: [166]]",
+    "bytes": [
+      166
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xa6"
+  },
+  "167": {
+    "text": "[Bytes: [167]]",
+    "bytes": [
+      167
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xa7"
+  },
+  "168": {
+    "text": "[Bytes: [168]]",
+    "bytes": [
+      168
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xa8"
+  },
+  "169": {
+    "text": "[Bytes: [169]]",
+    "bytes": [
+      169
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xa9"
+  },
+  "170": {
+    "text": "[Bytes: [170]]",
+    "bytes": [
+      170
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xaa"
+  },
+  "171": {
+    "text": "[Bytes: [171]]",
+    "bytes": [
+      171
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xab"
+  },
+  "172": {
+    "text": "[Bytes: [172]]",
+    "bytes": [
+      172
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xac"
+  },
+  "173": {
+    "text": "[Bytes: [173]]",
+    "bytes": [
+      173
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xad"
+  },
+  "174": {
+    "text": "[Bytes: [174]]",
+    "bytes": [
+      174
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xae"
+  },
+  "175": {
+    "text": "[Bytes: [175]]",
+    "bytes": [
+      175
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xaf"
+  },
+  "176": {
+    "text": "[Bytes: [176]]",
+    "bytes": [
+      176
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xb0"
+  },
+  "177": {
+    "text": "[Bytes: [177]]",
+    "bytes": [
+      177
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xb1"
+  },
+  "178": {
+    "text": "[Bytes: [178]]",
+    "bytes": [
+      178
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xb2"
+  },
+  "179": {
+    "text": "[Bytes: [179]]",
+    "bytes": [
+      179
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xb3"
+  },
+  "180": {
+    "text": "[Bytes: [180]]",
+    "bytes": [
+      180
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xb4"
+  },
+  "181": {
+    "text": "[Bytes: [181]]",
+    "bytes": [
+      181
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xb5"
+  },
+  "182": {
+    "text": "[Bytes: [182]]",
+    "bytes": [
+      182
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xb6"
+  },
+  "183": {
+    "text": "[Bytes: [183]]",
+    "bytes": [
+      183
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xb7"
+  },
+  "184": {
+    "text": "[Bytes: [184]]",
+    "bytes": [
+      184
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xb8"
+  },
+  "185": {
+    "text": "[Bytes: [185]]",
+    "bytes": [
+      185
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xb9"
+  },
+  "186": {
+    "text": "[Bytes: [186]]",
+    "bytes": [
+      186
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xba"
+  },
+  "187": {
+    "text": "[Bytes: [187]]",
+    "bytes": [
+      187
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xbb"
+  },
+  "188": {
+    "text": "[Bytes: [188]]",
+    "bytes": [
+      188
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xbc"
+  },
+  "189": {
+    "text": "[Bytes: [189]]",
+    "bytes": [
+      189
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xbd"
+  },
+  "190": {
+    "text": "[Bytes: [190]]",
+    "bytes": [
+      190
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xbe"
+  },
+  "191": {
+    "text": "[Bytes: [191]]",
+    "bytes": [
+      191
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xbf"
+  },
+  "192": {
+    "text": "[Bytes: [192]]",
+    "bytes": [
+      192
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xc0"
+  },
+  "193": {
+    "text": "[Bytes: [193]]",
+    "bytes": [
+      193
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xc1"
+  },
+  "194": {
+    "text": "[Bytes: [194]]",
+    "bytes": [
+      194
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xc2"
+  },
+  "195": {
+    "text": "[Bytes: [195]]",
+    "bytes": [
+      195
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xc3"
+  },
+  "196": {
+    "text": "[Bytes: [196]]",
+    "bytes": [
+      196
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xc4"
+  },
+  "197": {
+    "text": "[Bytes: [197]]",
+    "bytes": [
+      197
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xc5"
+  },
+  "198": {
+    "text": "[Bytes: [198]]",
+    "bytes": [
+      198
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xc6"
+  },
+  "199": {
+    "text": "[Bytes: [199]]",
+    "bytes": [
+      199
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xc7"
+  },
+  "200": {
+    "text": "[Bytes: [200]]",
+    "bytes": [
+      200
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xc8"
+  },
+  "201": {
+    "text": "[Bytes: [201]]",
+    "bytes": [
+      201
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xc9"
+  },
+  "202": {
+    "text": "[Bytes: [202]]",
+    "bytes": [
+      202
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xca"
+  },
+  "203": {
+    "text": "[Bytes: [203]]",
+    "bytes": [
+      203
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xcb"
+  },
+  "204": {
+    "text": "[Bytes: [204]]",
+    "bytes": [
+      204
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xcc"
+  },
+  "205": {
+    "text": "[Bytes: [205]]",
+    "bytes": [
+      205
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xcd"
+  },
+  "206": {
+    "text": "[Bytes: [206]]",
+    "bytes": [
+      206
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xce"
+  },
+  "207": {
+    "text": "[Bytes: [207]]",
+    "bytes": [
+      207
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xcf"
+  },
+  "208": {
+    "text": "[Bytes: [208]]",
+    "bytes": [
+      208
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xd0"
+  },
+  "209": {
+    "text": "[Bytes: [209]]",
+    "bytes": [
+      209
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xd1"
+  },
+  "210": {
+    "text": "[Bytes: [210]]",
+    "bytes": [
+      210
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xd2"
+  },
+  "211": {
+    "text": "[Bytes: [211]]",
+    "bytes": [
+      211
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xd3"
+  },
+  "212": {
+    "text": "[Bytes: [212]]",
+    "bytes": [
+      212
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xd4"
+  },
+  "213": {
+    "text": "[Bytes: [213]]",
+    "bytes": [
+      213
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xd5"
+  },
+  "214": {
+    "text": "[Bytes: [214]]",
+    "bytes": [
+      214
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xd6"
+  },
+  "215": {
+    "text": "[Bytes: [215]]",
+    "bytes": [
+      215
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xd7"
+  },
+  "216": {
+    "text": "[Bytes: [216]]",
+    "bytes": [
+      216
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xd8"
+  },
+  "217": {
+    "text": "[Bytes: [217]]",
+    "bytes": [
+      217
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xd9"
+  },
+  "218": {
+    "text": "[Bytes: [218]]",
+    "bytes": [
+      218
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xda"
+  },
+  "219": {
+    "text": "[Bytes: [219]]",
+    "bytes": [
+      219
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xdb"
+  },
+  "220": {
+    "text": "[Bytes: [220]]",
+    "bytes": [
+      220
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xdc"
+  },
+  "221": {
+    "text": "[Bytes: [221]]",
+    "bytes": [
+      221
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xdd"
+  },
+  "222": {
+    "text": "[Bytes: [222]]",
+    "bytes": [
+      222
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xde"
+  },
+  "223": {
+    "text": "[Bytes: [223]]",
+    "bytes": [
+      223
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xdf"
+  },
+  "224": {
+    "text": "[Bytes: [224]]",
+    "bytes": [
+      224
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xe0"
+  },
+  "225": {
+    "text": "[Bytes: [225]]",
+    "bytes": [
+      225
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xe1"
+  },
+  "226": {
+    "text": "[Bytes: [226]]",
+    "bytes": [
+      226
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xe2"
+  },
+  "227": {
+    "text": "[Bytes: [227]]",
+    "bytes": [
+      227
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xe3"
+  },
+  "228": {
+    "text": "[Bytes: [228]]",
+    "bytes": [
+      228
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xe4"
+  },
+  "229": {
+    "text": "[Bytes: [229]]",
+    "bytes": [
+      229
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xe5"
+  },
+  "230": {
+    "text": "[Bytes: [230]]",
+    "bytes": [
+      230
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xe6"
+  },
+  "231": {
+    "text": "[Bytes: [231]]",
+    "bytes": [
+      231
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xe7"
+  },
+  "232": {
+    "text": "[Bytes: [232]]",
+    "bytes": [
+      232
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xe8"
+  },
+  "233": {
+    "text": "[Bytes: [233]]",
+    "bytes": [
+      233
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xe9"
+  },
+  "234": {
+    "text": "[Bytes: [234]]",
+    "bytes": [
+      234
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xea"
+  },
+  "235": {
+    "text": "[Bytes: [235]]",
+    "bytes": [
+      235
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xeb"
+  },
+  "236": {
+    "text": "[Bytes: [236]]",
+    "bytes": [
+      236
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xec"
+  },
+  "237": {
+    "text": "[Bytes: [237]]",
+    "bytes": [
+      237
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xed"
+  },
+  "238": {
+    "text": "[Bytes: [238]]",
+    "bytes": [
+      238
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xee"
+  },
+  "239": {
+    "text": "[Bytes: [239]]",
+    "bytes": [
+      239
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xef"
+  },
+  "240": {
+    "text": "[Bytes: [240]]",
+    "bytes": [
+      240
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xf0"
+  },
+  "241": {
+    "text": "[Bytes: [241]]",
+    "bytes": [
+      241
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xf1"
+  },
+  "242": {
+    "text": "[Bytes: [242]]",
+    "bytes": [
+      242
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xf2"
+  },
+  "243": {
+    "text": "[Bytes: [243]]",
+    "bytes": [
+      243
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xf3"
+  },
+  "244": {
+    "text": "[Bytes: [244]]",
+    "bytes": [
+      244
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xf4"
+  },
+  "245": {
+    "text": "[Bytes: [245]]",
+    "bytes": [
+      245
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xf5"
+  },
+  "246": {
+    "text": "[Bytes: [246]]",
+    "bytes": [
+      246
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xf6"
+  },
+  "247": {
+    "text": "[Bytes: [247]]",
+    "bytes": [
+      247
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xf7"
+  },
+  "248": {
+    "text": "[Bytes: [248]]",
+    "bytes": [
+      248
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xf8"
+  },
+  "249": {
+    "text": "[Bytes: [249]]",
+    "bytes": [
+      249
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xf9"
+  },
+  "250": {
+    "text": "[Bytes: [250]]",
+    "bytes": [
+      250
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xfa"
+  },
+  "251": {
+    "text": "[Bytes: [251]]",
+    "bytes": [
+      251
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xfb"
+  },
+  "252": {
+    "text": "[Bytes: [252]]",
+    "bytes": [
+      252
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xfc"
+  },
+  "253": {
+    "text": "[Bytes: [253]]",
+    "bytes": [
+      253
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xfd"
+  },
+  "254": {
+    "text": "[Bytes: [254]]",
+    "bytes": [
+      254
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xfe"
+  },
+  "255": {
+    "text": "[Bytes: [255]]",
+    "bytes": [
+      255
+    ],
+    "type": "Extended ASCII",
+    "description": "Extended ASCII byte: 0xff"
+  },
+  "260": {
+    "text": "ఄ",
+    "bytes": [
+      224,
+      176,
+      132
+    ],
+    "type": "Other Telugu Character",
+    "description": "Telugu character"
+  },
+  "314": {
+    "text": "఺",
+    "bytes": [
+      224,
+      176,
+      186
+    ],
+    "type": "Other Telugu Character",
+    "description": "Telugu character"
+  },
+  "315": {
+    "text": "఻",
+    "bytes": [
+      224,
+      176,
+      187
+    ],
+    "type": "Other Telugu Character",
+    "description": "Telugu character"
+  },
+  "316": {
+    "text": "఼",
+    "bytes": [
+      224,
+      176,
+      188
+    ],
+    "type": "Other Telugu Character",
+    "description": "Telugu character"
+  },
+  "325": {
+    "text": "౅",
+    "bytes": [
+      224,
+      177,
+      133
+    ],
+    "type": "Other Telugu Character",
+    "description": "Telugu character"
+  },
+  "329": {
+    "text": "౉",
+    "bytes": [
+      224,
+      177,
+      137
+    ],
+    "type": "Other Telugu Character",
+    "description": "Telugu character"
+  },
+  "334": {
+    "text": "౎",
+    "bytes": [
+      224,
+      177,
+      142
+    ],
+    "type": "Other Telugu Character",
+    "description": "Telugu character"
+  },
+  "335": {
+    "text": "౏",
+    "bytes": [
+      224,
+      177,
+      143
+    ],
+    "type": "Other Telugu Character",
+    "description": "Telugu character"
+  },
+  "336": {
+    "text": "౐",
+    "bytes": [
+      224,
+      177,
+      144
+    ],
+    "type": "Other Telugu Character",
+    "description": "Telugu character"
+  },
+  "337": {
+    "text": "౑",
+    "bytes": [
+      224,
+      177,
+      145
+    ],
+    "type": "Other Telugu Character",
+    "description": "Telugu character"
+  },
+  "338": {
+    "text": "౒",
+    "bytes": [
+      224,
+      177,
+      146
+    ],
+    "type": "Other Telugu Character",
+    "description": "Telugu character"
+  },
+  "339": {
+    "text": "౓",
+    "bytes": [
+      224,
+      177,
+      147
+    ],
+    "type": "Other Telugu Character",
+    "description": "Telugu character"
+  },
+  "340": {
+    "text": "౔",
+    "bytes": [
+      224,
+      177,
+      148
+    ],
+    "type": "Other Telugu Character",
+    "description": "Telugu character"
+  },
+  "343": {
+    "text": "౗",
+    "bytes": [
+      224,
+      177,
+      151
+    ],
+    "type": "Other Telugu Character",
+    "description": "Telugu character"
+  },
+  "347": {
+    "text": "౛",
+    "bytes": [
+      224,
+      177,
+      155
+    ],
+    "type": "Other Telugu Character",
+    "description": "Telugu character"
+  },
+  "348": {
+    "text": "౜",
+    "bytes": [
+      224,
+      177,
+      156
+    ],
+    "type": "Other Telugu Character",
+    "description": "Telugu character"
+  },
+  "349": {
+    "text": "ౝ",
+    "bytes": [
+      224,
+      177,
+      157
+    ],
+    "type": "Other Telugu Character",
+    "description": "Telugu character"
+  },
+  "350": {
+    "text": "౞",
+    "bytes": [
+      224,
+      177,
+      158
+    ],
+    "type": "Other Telugu Character",
+    "description": "Telugu character"
+  },
+  "351": {
+    "text": "౟",
+    "bytes": [
+      224,
+      177,
+      159
+    ],
+    "type": "Other Telugu Character",
+    "description": "Telugu character"
+  },
+  "356": {
+    "text": "౤",
+    "bytes": [
+      224,
+      177,
+      164
+    ],
+    "type": "Other Telugu Character",
+    "description": "Telugu character"
+  },
+  "357": {
+    "text": "౥",
+    "bytes": [
+      224,
+      177,
+      165
+    ],
+    "type": "Other Telugu Character",
+    "description": "Telugu character"
+  },
+  "368": {
+    "text": "౰",
+    "bytes": [
+      224,
+      177,
+      176
+    ],
+    "type": "Other Telugu Character",
+    "description": "Telugu character"
+  },
+  "369": {
+    "text": "౱",
+    "bytes": [
+      224,
+      177,
+      177
+    ],
+    "type": "Other Telugu Character",
+    "description": "Telugu character"
+  },
+  "370": {
+    "text": "౲",
+    "bytes": [
+      224,
+      177,
+      178
+    ],
+    "type": "Other Telugu Character",
+    "description": "Telugu character"
+  },
+  "371": {
+    "text": "౳",
+    "bytes": [
+      224,
+      177,
+      179
+    ],
+    "type": "Other Telugu Character",
+    "description": "Telugu character"
+  },
+  "372": {
+    "text": "౴",
+    "bytes": [
+      224,
+      177,
+      180
+    ],
+    "type": "Other Telugu Character",
+    "description": "Telugu character"
+  },
+  "373": {
+    "text": "౵",
+    "bytes": [
+      224,
+      177,
+      181
+    ],
+    "type": "Other Telugu Character",
+    "description": "Telugu character"
+  },
+  "374": {
+    "text": "౶",
+    "bytes": [
+      224,
+      177,
+      182
+    ],
+    "type": "Other Telugu Character",
+    "description": "Telugu character"
+  },
+  "375": {
+    "text": "౷",
+    "bytes": [
+      224,
+      177,
+      183
+    ],
+    "type": "Other Telugu Character",
+    "description": "Telugu character"
+  },
+  "277": {
+    "text": "క",
+    "bytes": [
+      224,
+      176,
+      149
+    ],
+    "type": "Telugu consonants (క to హ)",
+    "description": "Telugu character: క (0xc15)"
+  },
+  "278": {
+    "text": "ఖ",
+    "bytes": [
+      224,
+      176,
+      150
+    ],
+    "type": "Telugu consonants (క to హ)",
+    "description": "Telugu character: ఖ (0xc16)"
+  },
+  "279": {
+    "text": "గ",
+    "bytes": [
+      224,
+      176,
+      151
+    ],
+    "type": "Telugu consonants (క to హ)",
+    "description": "Telugu character: గ (0xc17)"
+  },
+  "280": {
+    "text": "ఘ",
+    "bytes": [
+      224,
+      176,
+      152
+    ],
+    "type": "Telugu consonants (క to హ)",
+    "description": "Telugu character: ఘ (0xc18)"
+  },
+  "281": {
+    "text": "ఙ",
+    "bytes": [
+      224,
+      176,
+      153
+    ],
+    "type": "Telugu consonants (క to హ)",
+    "description": "Telugu character: ఙ (0xc19)"
+  },
+  "282": {
+    "text": "చ",
+    "bytes": [
+      224,
+      176,
+      154
+    ],
+    "type": "Telugu consonants (క to హ)",
+    "description": "Telugu character: చ (0xc1a)"
+  },
+  "283": {
+    "text": "ఛ",
+    "bytes": [
+      224,
+      176,
+      155
+    ],
+    "type": "Telugu consonants (క to హ)",
+    "description": "Telugu character: ఛ (0xc1b)"
+  },
+  "284": {
+    "text": "జ",
+    "bytes": [
+      224,
+      176,
+      156
+    ],
+    "type": "Telugu consonants (క to హ)",
+    "description": "Telugu character: జ (0xc1c)"
+  },
+  "285": {
+    "text": "ఝ",
+    "bytes": [
+      224,
+      176,
+      157
+    ],
+    "type": "Telugu consonants (క to హ)",
+    "description": "Telugu character: ఝ (0xc1d)"
+  },
+  "286": {
+    "text": "ఞ",
+    "bytes": [
+      224,
+      176,
+      158
+    ],
+    "type": "Telugu consonants (క to హ)",
+    "description": "Telugu character: ఞ (0xc1e)"
+  },
+  "287": {
+    "text": "ట",
+    "bytes": [
+      224,
+      176,
+      159
+    ],
+    "type": "Telugu consonants (క to హ)",
+    "description": "Telugu character: ట (0xc1f)"
+  },
+  "288": {
+    "text": "ఠ",
+    "bytes": [
+      224,
+      176,
+      160
+    ],
+    "type": "Telugu consonants (క to హ)",
+    "description": "Telugu character: ఠ (0xc20)"
+  },
+  "289": {
+    "text": "డ",
+    "bytes": [
+      224,
+      176,
+      161
+    ],
+    "type": "Telugu consonants (క to హ)",
+    "description": "Telugu character: డ (0xc21)"
+  },
+  "290": {
+    "text": "ఢ",
+    "bytes": [
+      224,
+      176,
+      162
+    ],
+    "type": "Telugu consonants (క to హ)",
+    "description": "Telugu character: ఢ (0xc22)"
+  },
+  "291": {
+    "text": "ణ",
+    "bytes": [
+      224,
+      176,
+      163
+    ],
+    "type": "Telugu consonants (క to హ)",
+    "description": "Telugu character: ణ (0xc23)"
+  },
+  "292": {
+    "text": "త",
+    "bytes": [
+      224,
+      176,
+      164
+    ],
+    "type": "Telugu consonants (క to హ)",
+    "description": "Telugu character: త (0xc24)"
+  },
+  "293": {
+    "text": "థ",
+    "bytes": [
+      224,
+      176,
+      165
+    ],
+    "type": "Telugu consonants (క to హ)",
+    "description": "Telugu character: థ (0xc25)"
+  },
+  "294": {
+    "text": "ద",
+    "bytes": [
+      224,
+      176,
+      166
+    ],
+    "type": "Telugu consonants (క to హ)",
+    "description": "Telugu character: ద (0xc26)"
+  },
+  "295": {
+    "text": "ధ",
+    "bytes": [
+      224,
+      176,
+      167
+    ],
+    "type": "Telugu consonants (క to హ)",
+    "description": "Telugu character: ధ (0xc27)"
+  },
+  "296": {
+    "text": "న",
+    "bytes": [
+      224,
+      176,
+      168
+    ],
+    "type": "Telugu consonants (క to హ)",
+    "description": "Telugu character: న (0xc28)"
+  },
+  "297": {
+    "text": "఩",
+    "bytes": [
+      224,
+      176,
+      169
+    ],
+    "type": "Telugu consonants (క to హ)",
+    "description": "Telugu character: ఩ (0xc29)"
+  },
+  "298": {
+    "text": "ప",
+    "bytes": [
+      224,
+      176,
+      170
+    ],
+    "type": "Telugu consonants (క to హ)",
+    "description": "Telugu character: ప (0xc2a)"
+  },
+  "299": {
+    "text": "ఫ",
+    "bytes": [
+      224,
+      176,
+      171
+    ],
+    "type": "Telugu consonants (క to హ)",
+    "description": "Telugu character: ఫ (0xc2b)"
+  },
+  "300": {
+    "text": "బ",
+    "bytes": [
+      224,
+      176,
+      172
+    ],
+    "type": "Telugu consonants (క to హ)",
+    "description": "Telugu character: బ (0xc2c)"
+  },
+  "301": {
+    "text": "భ",
+    "bytes": [
+      224,
+      176,
+      173
+    ],
+    "type": "Telugu consonants (క to హ)",
+    "description": "Telugu character: భ (0xc2d)"
+  },
+  "302": {
+    "text": "మ",
+    "bytes": [
+      224,
+      176,
+      174
+    ],
+    "type": "Telugu consonants (క to హ)",
+    "description": "Telugu character: మ (0xc2e)"
+  },
+  "303": {
+    "text": "య",
+    "bytes": [
+      224,
+      176,
+      175
+    ],
+    "type": "Telugu consonants (క to హ)",
+    "description": "Telugu character: య (0xc2f)"
+  },
+  "304": {
+    "text": "ర",
+    "bytes": [
+      224,
+      176,
+      176
+    ],
+    "type": "Telugu consonants (క to హ)",
+    "description": "Telugu character: ర (0xc30)"
+  },
+  "305": {
+    "text": "ఱ",
+    "bytes": [
+      224,
+      176,
+      177
+    ],
+    "type": "Telugu consonants (క to హ)",
+    "description": "Telugu character: ఱ (0xc31)"
+  },
+  "306": {
+    "text": "ల",
+    "bytes": [
+      224,
+      176,
+      178
+    ],
+    "type": "Telugu consonants (క to హ)",
+    "description": "Telugu character: ల (0xc32)"
+  },
+  "307": {
+    "text": "ళ",
+    "bytes": [
+      224,
+      176,
+      179
+    ],
+    "type": "Telugu consonants (క to హ)",
+    "description": "Telugu character: ళ (0xc33)"
+  },
+  "308": {
+    "text": "ఴ",
+    "bytes": [
+      224,
+      176,
+      180
+    ],
+    "type": "Telugu consonants (క to హ)",
+    "description": "Telugu character: ఴ (0xc34)"
+  },
+  "309": {
+    "text": "వ",
+    "bytes": [
+      224,
+      176,
+      181
+    ],
+    "type": "Telugu consonants (క to హ)",
+    "description": "Telugu character: వ (0xc35)"
+  },
+  "310": {
+    "text": "శ",
+    "bytes": [
+      224,
+      176,
+      182
+    ],
+    "type": "Telugu consonants (క to హ)",
+    "description": "Telugu character: శ (0xc36)"
+  },
+  "311": {
+    "text": "ష",
+    "bytes": [
+      224,
+      176,
+      183
+    ],
+    "type": "Telugu consonants (క to హ)",
+    "description": "Telugu character: ష (0xc37)"
+  },
+  "312": {
+    "text": "స",
+    "bytes": [
+      224,
+      176,
+      184
+    ],
+    "type": "Telugu consonants (క to హ)",
+    "description": "Telugu character: స (0xc38)"
+  },
+  "313": {
+    "text": "హ",
+    "bytes": [
+      224,
+      176,
+      185
+    ],
+    "type": "Telugu consonants (క to హ)",
+    "description": "Telugu character: హ (0xc39)"
+  },
+  "358": {
+    "text": "౦",
+    "bytes": [
+      224,
+      177,
+      166
+    ],
+    "type": "Telugu digits (౦ to ౯)",
+    "description": "Telugu character: ౦ (0xc66)"
+  },
+  "359": {
+    "text": "౧",
+    "bytes": [
+      224,
+      177,
+      167
+    ],
+    "type": "Telugu digits (౦ to ౯)",
+    "description": "Telugu character: ౧ (0xc67)"
+  },
+  "360": {
+    "text": "౨",
+    "bytes": [
+      224,
+      177,
+      168
+    ],
+    "type": "Telugu digits (౦ to ౯)",
+    "description": "Telugu character: ౨ (0xc68)"
+  },
+  "361": {
+    "text": "౩",
+    "bytes": [
+      224,
+      177,
+      169
+    ],
+    "type": "Telugu digits (౦ to ౯)",
+    "description": "Telugu character: ౩ (0xc69)"
+  },
+  "362": {
+    "text": "౪",
+    "bytes": [
+      224,
+      177,
+      170
+    ],
+    "type": "Telugu digits (౦ to ౯)",
+    "description": "Telugu character: ౪ (0xc6a)"
+  },
+  "363": {
+    "text": "౫",
+    "bytes": [
+      224,
+      177,
+      171
+    ],
+    "type": "Telugu digits (౦ to ౯)",
+    "description": "Telugu character: ౫ (0xc6b)"
+  },
+  "364": {
+    "text": "౬",
+    "bytes": [
+      224,
+      177,
+      172
+    ],
+    "type": "Telugu digits (౦ to ౯)",
+    "description": "Telugu character: ౬ (0xc6c)"
+  },
+  "365": {
+    "text": "౭",
+    "bytes": [
+      224,
+      177,
+      173
+    ],
+    "type": "Telugu digits (౦ to ౯)",
+    "description": "Telugu character: ౭ (0xc6d)"
+  },
+  "366": {
+    "text": "౮",
+    "bytes": [
+      224,
+      177,
+      174
+    ],
+    "type": "Telugu digits (౦ to ౯)",
+    "description": "Telugu character: ౮ (0xc6e)"
+  },
+  "367": {
+    "text": "౯",
+    "bytes": [
+      224,
+      177,
+      175
+    ],
+    "type": "Telugu digits (౦ to ౯)",
+    "description": "Telugu character: ౯ (0xc6f)"
+  },
+  "376": {
+    "text": "౸",
+    "bytes": [
+      224,
+      177,
+      184
+    ],
+    "type": "Telugu fraction symbols",
+    "description": "Telugu character: ౸ (0xc78)"
+  },
+  "377": {
+    "text": "౹",
+    "bytes": [
+      224,
+      177,
+      185
+    ],
+    "type": "Telugu fraction symbols",
+    "description": "Telugu character: ౹ (0xc79)"
+  },
+  "378": {
+    "text": "౺",
+    "bytes": [
+      224,
+      177,
+      186
+    ],
+    "type": "Telugu fraction symbols",
+    "description": "Telugu character: ౺ (0xc7a)"
+  },
+  "379": {
+    "text": "౻",
+    "bytes": [
+      224,
+      177,
+      187
+    ],
+    "type": "Telugu fraction symbols",
+    "description": "Telugu character: ౻ (0xc7b)"
+  },
+  "380": {
+    "text": "౼",
+    "bytes": [
+      224,
+      177,
+      188
+    ],
+    "type": "Telugu fraction symbols",
+    "description": "Telugu character: ౼ (0xc7c)"
+  },
+  "381": {
+    "text": "౽",
+    "bytes": [
+      224,
+      177,
+      189
+    ],
+    "type": "Telugu fraction symbols",
+    "description": "Telugu character: ౽ (0xc7d)"
+  },
+  "382": {
+    "text": "౾",
+    "bytes": [
+      224,
+      177,
+      190
+    ],
+    "type": "Telugu fraction symbols",
+    "description": "Telugu character: ౾ (0xc7e)"
+  },
+  "383": {
+    "text": "౿",
+    "bytes": [
+      224,
+      177,
+      191
+    ],
+    "type": "Telugu fraction symbols",
+    "description": "Telugu character: ౿ (0xc7f)"
+  },
+  "341": {
+    "text": "ౕ",
+    "bytes": [
+      224,
+      177,
+      149
+    ],
+    "type": "Telugu length marks",
+    "description": "Telugu character: ౕ (0xc55)"
+  },
+  "342": {
+    "text": "ౖ",
+    "bytes": [
+      224,
+      177,
+      150
+    ],
+    "type": "Telugu length marks",
+    "description": "Telugu character: ౖ (0xc56)"
+  },
+  "352": {
+    "text": "ౠ",
+    "bytes": [
+      224,
+      177,
+      160
+    ],
+    "type": "Telugu vocalic letters",
+    "description": "Telugu character: ౠ (0xc60)"
+  },
+  "353": {
+    "text": "ౡ",
+    "bytes": [
+      224,
+      177,
+      161
+    ],
+    "type": "Telugu vocalic letters",
+    "description": "Telugu character: ౡ (0xc61)"
+  },
+  "354": {
+    "text": "ౢ",
+    "bytes": [
+      224,
+      177,
+      162
+    ],
+    "type": "Telugu vocalic letters",
+    "description": "Telugu character: ౢ (0xc62)"
+  },
+  "355": {
+    "text": "ౣ",
+    "bytes": [
+      224,
+      177,
+      163
+    ],
+    "type": "Telugu vocalic letters",
+    "description": "Telugu character: ౣ (0xc63)"
+  },
+  "317": {
+    "text": "ఽ",
+    "bytes": [
+      224,
+      176,
+      189
+    ],
+    "type": "Telugu vowel signs (ఽ to ౄ)",
+    "description": "Telugu character: ఽ (0xc3d)"
+  },
+  "318": {
+    "text": "ా",
+    "bytes": [
+      224,
+      176,
+      190
+    ],
+    "type": "Telugu vowel signs (ఽ to ౄ)",
+    "description": "Telugu character: ా (0xc3e)"
+  },
+  "319": {
+    "text": "ి",
+    "bytes": [
+      224,
+      176,
+      191
+    ],
+    "type": "Telugu vowel signs (ఽ to ౄ)",
+    "description": "Telugu character: ి (0xc3f)"
+  },
+  "320": {
+    "text": "ీ",
+    "bytes": [
+      224,
+      177,
+      128
+    ],
+    "type": "Telugu vowel signs (ఽ to ౄ)",
+    "description": "Telugu character: ీ (0xc40)"
+  },
+  "321": {
+    "text": "ు",
+    "bytes": [
+      224,
+      177,
+      129
+    ],
+    "type": "Telugu vowel signs (ఽ to ౄ)",
+    "description": "Telugu character: ు (0xc41)"
+  },
+  "322": {
+    "text": "ూ",
+    "bytes": [
+      224,
+      177,
+      130
+    ],
+    "type": "Telugu vowel signs (ఽ to ౄ)",
+    "description": "Telugu character: ూ (0xc42)"
+  },
+  "323": {
+    "text": "ృ",
+    "bytes": [
+      224,
+      177,
+      131
+    ],
+    "type": "Telugu vowel signs (ఽ to ౄ)",
+    "description": "Telugu character: ృ (0xc43)"
+  },
+  "324": {
+    "text": "ౄ",
+    "bytes": [
+      224,
+      177,
+      132
+    ],
+    "type": "Telugu vowel signs (ఽ to ౄ)",
+    "description": "Telugu character: ౄ (0xc44)"
+  },
+  "326": {
+    "text": "ె",
+    "bytes": [
+      224,
+      177,
+      134
+    ],
+    "type": "Telugu vowel signs (ె to ై)",
+    "description": "Telugu character: ె (0xc46)"
+  },
+  "327": {
+    "text": "ే",
+    "bytes": [
+      224,
+      177,
+      135
+    ],
+    "type": "Telugu vowel signs (ె to ై)",
+    "description": "Telugu character: ే (0xc47)"
+  },
+  "328": {
+    "text": "ై",
+    "bytes": [
+      224,
+      177,
+      136
+    ],
+    "type": "Telugu vowel signs (ె to ై)",
+    "description": "Telugu character: ై (0xc48)"
+  },
+  "330": {
+    "text": "ొ",
+    "bytes": [
+      224,
+      177,
+      138
+    ],
+    "type": "Telugu vowel signs and virama (ొ to ్)",
+    "description": "Telugu character: ొ (0xc4a)"
+  },
+  "331": {
+    "text": "ో",
+    "bytes": [
+      224,
+      177,
+      139
+    ],
+    "type": "Telugu vowel signs and virama (ొ to ్)",
+    "description": "Telugu character: ో (0xc4b)"
+  },
+  "332": {
+    "text": "ౌ",
+    "bytes": [
+      224,
+      177,
+      140
+    ],
+    "type": "Telugu vowel signs and virama (ొ to ్)",
+    "description": "Telugu character: ౌ (0xc4c)"
+  },
+  "333": {
+    "text": "్",
+    "bytes": [
+      224,
+      177,
+      141
+    ],
+    "type": "Telugu vowel signs and virama (ొ to ్)",
+    "description": "Telugu character: ్ (0xc4d)"
+  },
+  "261": {
+    "text": "అ",
+    "bytes": [
+      224,
+      176,
+      133
+    ],
+    "type": "Telugu vowels (అ to ఔ)",
+    "description": "Telugu character: అ (0xc05)"
+  },
+  "262": {
+    "text": "ఆ",
+    "bytes": [
+      224,
+      176,
+      134
+    ],
+    "type": "Telugu vowels (అ to ఔ)",
+    "description": "Telugu character: ఆ (0xc06)"
+  },
+  "263": {
+    "text": "ఇ",
+    "bytes": [
+      224,
+      176,
+      135
+    ],
+    "type": "Telugu vowels (అ to ఔ)",
+    "description": "Telugu character: ఇ (0xc07)"
+  },
+  "264": {
+    "text": "ఈ",
+    "bytes": [
+      224,
+      176,
+      136
+    ],
+    "type": "Telugu vowels (అ to ఔ)",
+    "description": "Telugu character: ఈ (0xc08)"
+  },
+  "265": {
+    "text": "ఉ",
+    "bytes": [
+      224,
+      176,
+      137
+    ],
+    "type": "Telugu vowels (అ to ఔ)",
+    "description": "Telugu character: ఉ (0xc09)"
+  },
+  "266": {
+    "text": "ఊ",
+    "bytes": [
+      224,
+      176,
+      138
+    ],
+    "type": "Telugu vowels (అ to ఔ)",
+    "description": "Telugu character: ఊ (0xc0a)"
+  },
+  "267": {
+    "text": "ఋ",
+    "bytes": [
+      224,
+      176,
+      139
+    ],
+    "type": "Telugu vowels (అ to ఔ)",
+    "description": "Telugu character: ఋ (0xc0b)"
+  },
+  "268": {
+    "text": "ఌ",
+    "bytes": [
+      224,
+      176,
+      140
+    ],
+    "type": "Telugu vowels (అ to ఔ)",
+    "description": "Telugu character: ఌ (0xc0c)"
+  },
+  "269": {
+    "text": "఍",
+    "bytes": [
+      224,
+      176,
+      141
+    ],
+    "type": "Telugu vowels (అ to ఔ)",
+    "description": "Telugu character: ఍ (0xc0d)"
+  },
+  "270": {
+    "text": "ఎ",
+    "bytes": [
+      224,
+      176,
+      142
+    ],
+    "type": "Telugu vowels (అ to ఔ)",
+    "description": "Telugu character: ఎ (0xc0e)"
+  },
+  "271": {
+    "text": "ఏ",
+    "bytes": [
+      224,
+      176,
+      143
+    ],
+    "type": "Telugu vowels (అ to ఔ)",
+    "description": "Telugu character: ఏ (0xc0f)"
+  },
+  "272": {
+    "text": "ఐ",
+    "bytes": [
+      224,
+      176,
+      144
+    ],
+    "type": "Telugu vowels (అ to ఔ)",
+    "description": "Telugu character: ఐ (0xc10)"
+  },
+  "273": {
+    "text": "఑",
+    "bytes": [
+      224,
+      176,
+      145
+    ],
+    "type": "Telugu vowels (అ to ఔ)",
+    "description": "Telugu character: ఑ (0xc11)"
+  },
+  "274": {
+    "text": "ఒ",
+    "bytes": [
+      224,
+      176,
+      146
+    ],
+    "type": "Telugu vowels (అ to ఔ)",
+    "description": "Telugu character: ఒ (0xc12)"
+  },
+  "275": {
+    "text": "ఓ",
+    "bytes": [
+      224,
+      176,
+      147
+    ],
+    "type": "Telugu vowels (అ to ఔ)",
+    "description": "Telugu character: ఓ (0xc13)"
+  },
+  "276": {
+    "text": "ఔ",
+    "bytes": [
+      224,
+      176,
+      148
+    ],
+    "type": "Telugu vowels (అ to ఔ)",
+    "description": "Telugu character: ఔ (0xc14)"
+  },
+  "256": {
+    "text": "ఀ",
+    "bytes": [
+      224,
+      176,
+      128
+    ],
+    "type": "Various forms of Telugu anusvara and visarga",
+    "description": "Telugu character: ఀ (0xc00)"
+  },
+  "257": {
+    "text": "ఁ",
+    "bytes": [
+      224,
+      176,
+      129
+    ],
+    "type": "Various forms of Telugu anusvara and visarga",
+    "description": "Telugu character: ఁ (0xc01)"
+  },
+  "258": {
+    "text": "ం",
+    "bytes": [
+      224,
+      176,
+      130
+    ],
+    "type": "Various forms of Telugu anusvara and visarga",
+    "description": "Telugu character: ం (0xc02)"
+  },
+  "259": {
+    "text": "ః",
+    "bytes": [
+      224,
+      176,
+      131
+    ],
+    "type": "Various forms of Telugu anusvara and visarga",
+    "description": "Telugu character: ః (0xc03)"
+  }
+}

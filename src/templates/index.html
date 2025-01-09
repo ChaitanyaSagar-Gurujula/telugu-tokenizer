@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ title }}</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto px-4 py-8">
+        <h1 class="text-3xl font-bold mb-8">Telugu BPE Tokenizer</h1>
+        
+        <div class="bg-white rounded-lg shadow p-6">
+            <textarea 
+                id="input-text" 
+                class="w-full p-2 border rounded mb-4" 
+                rows="4" 
+                placeholder="Enter Telugu text here..."></textarea>
+            
+            <button 
+                onclick="tokenize()" 
+                class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+                Tokenize
+            </button>
+            
+            <div id="result" class="mt-6 hidden">
+                <h2 class="text-xl font-semibold mb-2">Results:</h2>
+                <div class="space-y-4">
+                    <div>
+                        <span class="font-medium">Tokens:</span>
+                        <pre id="tokens" class="bg-gray-100 p-2 rounded mt-1"></pre>
+                    </div>
+                    <div>
+                        <span class="font-medium">Decoded:</span>
+                        <pre id="decoded" class="bg-gray-100 p-2 rounded mt-1"></pre>
+                    </div>
+                    <div>
+                        <span class="font-medium">Token Details:</span>
+                        <div id="token-details" class="bg-gray-100 p-2 rounded mt-1 overflow-x-auto">
+                            <table class="min-w-full">
+                                <thead>
+                                    <tr class="border-b">
+                                        <th class="text-left p-2">Word</th>
+                                        <th class="text-left p-2">Type</th>
+                                        <th class="text-left p-2">Token Info</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="token-details-body"></tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div id="match-result"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        async function tokenize() {
+            const text = document.getElementById('input-text').value;
+            try {
+                const response = await fetch('/tokenize', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ text }),
+                });
+                
+                const data = await response.json();
+                
+                document.getElementById('result').classList.remove('hidden');
+                document.getElementById('tokens').textContent = JSON.stringify(data.tokens, null, 2);
+                document.getElementById('decoded').textContent = data.decoded;
+                
+                // Display token details
+                const detailsBody = document.getElementById('token-details-body');
+                detailsBody.innerHTML = '';
+                
+                data.token_details.forEach(detail => {
+                    const row = document.createElement('tr');
+                    row.className = 'border-b';
+                    
+                    if (detail.type === 'complete_word') {
+                        row.innerHTML = `
+                            <td class="p-2">${detail.word}</td>
+                            <td class="p-2">${detail.type}</td>
+                            <td class="p-2">Token ID: ${detail.token_id}</td>
+                        `;
+                    } else {
+                        const tokenInfo = detail.tokens.map(t => 
+                            `ID ${t.id}: "${t.text}"`
+                        ).join('<br>');
+                        
+                        row.innerHTML = `
+                            <td class="p-2">${detail.word}</td>
+                            <td class="p-2">${detail.type}</td>
+                            <td class="p-2">${tokenInfo}</td>
+                        `;
+                    }
+                    
+                    detailsBody.appendChild(row);
+                });
+                
+                const matchEl = document.getElementById('match-result');
+                matchEl.textContent = data.matches ? '✅ Perfect match!' : '❌ Mismatch';
+                matchEl.className = data.matches ? 'text-green-600' : 'text-red-600';
+            } catch (error) {
+                console.error('Error:', error);
+                alert('Error tokenizing text: ' + error.message);
+            }
+        }
+    </script>
+</body>
+</html> 
