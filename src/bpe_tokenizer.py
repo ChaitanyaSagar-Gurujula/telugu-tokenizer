@@ -124,7 +124,14 @@ class BPETokenizer:
         self.vocab_size = vocab_size
         self.sample_size = sample_size
         
-        # Try to load base vocabulary, or create if it doesn't exist
+        # First try to load trained vocabulary
+        trained_vocab_path = 'telugu_tokenizer_vocab.json'
+        if os.path.exists(trained_vocab_path):
+            print("Loading trained vocabulary...")
+            self.load('telugu_tokenizer')  # This loads both vocab and merges
+            return
+        
+        # If no trained vocab exists, fall back to base vocabulary
         base_vocab_path = 'telugu_base_vocab.json'
         if os.path.exists(base_vocab_path):
             print("Loading existing base vocabulary...")
@@ -214,44 +221,36 @@ class BPETokenizer:
 
     def encode(self, text):
         """Encode text to token IDs."""
-        ids = []
-        byte_string = text.encode('utf-8')
-        
-        # First, break into base tokens
-        char_tokens = []
+        final_tokens = []
         i = 0
-        while i < len(byte_string):
-            found = False
-            for length in [3, 2, 1]:
-                if i + length <= len(byte_string):
-                    char_bytes = bytes(byte_string[i:i+length])
-                    for token_id, token_bytes in self.vocab.items():
-                        if token_bytes == char_bytes:
-                            char_tokens.append(token_id)
-                            i += length
-                            found = True
-                            break
-                    if found:
+        text_bytes = text.encode('utf-8')
+        
+        while i < len(text_bytes):
+            # Try to find the longest matching sequence
+            longest_match = None
+            longest_length = 0
+            matched_token = None
+            
+            # Try different lengths starting from the current position
+            for token_id, token_bytes in self.vocab.items():
+                if text_bytes[i:].startswith(token_bytes):
+                    if len(token_bytes) > longest_length:
+                        longest_length = len(token_bytes)
+                        longest_match = token_bytes
+                        matched_token = token_id
+            
+            if longest_match:
+                final_tokens.append(matched_token)
+                i += longest_length
+            else:
+                # If no match found, fall back to single byte
+                for token_id, token_bytes in self.vocab.items():
+                    if token_bytes == bytes([text_bytes[i]]):
+                        final_tokens.append(token_id)
                         break
-            if not found:
                 i += 1
         
-        # Then apply merges
-        tokens = char_tokens
-        while len(tokens) >= 2:
-            pairs = list(zip(tokens, tokens[1:]))
-            found_merge = False
-            
-            for pair in pairs:
-                if pair in self.merges:
-                    found_merge = True
-                    tokens = self.merge(tokens, pair, self.merges[pair])
-                    break
-            
-            if not found_merge:
-                break
-                
-        return tokens
+        return final_tokens
 
     def decode(self, tokens):
         """Decode token IDs back to text."""

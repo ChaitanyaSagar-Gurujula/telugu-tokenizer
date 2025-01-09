@@ -47,67 +47,49 @@ async def home(request: Request):
 async def tokenize(request: TokenizeRequest):
     text = request.text
     try:
-        # Split by spaces to check each word
-        words = text.split()
-        final_tokens = []
+        # Use the BPE tokenizer's encode method
+        tokens = tokenizer.encode(text)
+        
+        # Use the BPE tokenizer's decode method
+        decoded = tokenizer.decode(tokens)
+        
+        # Get token details from vocabulary for display
         token_details = []
+        words = text.split()
+        current_position = 0
         
         for word in words:
-            # First check if the word exists in vocabulary
-            word_found = False
-            for token_id, info in vocab_data.items():
-                if info.get('text') == word:
-                    print(f"Found word '{word}' as token {token_id}")
-                    final_tokens.append(int(token_id))
-                    token_details.append({
-                        "word": word,
-                        "token_id": int(token_id),
-                        "type": "complete_word",
-                        "text": word
-                    })
-                    word_found = True
-                    break
+            # Find tokens that make up this word
+            word_tokens = []
+            word_length = len(word.encode('utf-8'))
+            while current_position < len(tokens) and len(''.join(
+                vocab_data.get(str(t), {}).get('text', '') 
+                for t in word_tokens
+            ).encode('utf-8')) < word_length:
+                word_tokens.append(tokens[current_position])
+                current_position += 1
             
-            if not word_found:
-                print(f"Word '{word}' not found in vocabulary, using subword tokens")
-                # Only use character-level tokenization if word isn't in vocabulary
-                word_tokens = tokenizer.encode(word)
-                final_tokens.extend(word_tokens)
-                token_details.append({
-                    "word": word,
-                    "tokens": [
-                        {
-                            "id": t,
-                            "text": vocab_data.get(str(t), {}).get('text', '[UNKNOWN]')
-                        } for t in word_tokens
-                    ],
-                    "type": "subword_tokens"
-                })
-        
-        try:
-            decoded = tokenizer.decode(final_tokens)
-        except Exception as e:
-            print(f"Decoding error: {str(e)}")
-            # Fall back to joining the original words
-            decoded = " ".join(words)
+            token_details.append({
+                "word": word,
+                "type": "subword_tokens",
+                "tokens": [
+                    {
+                        "id": t,
+                        "text": vocab_data.get(str(t), {}).get('text', '[UNKNOWN]')
+                    } for t in word_tokens
+                ]
+            })
         
         return {
             "original": text,
-            "tokens": final_tokens,
+            "tokens": tokens,
             "token_details": token_details,
             "decoded": decoded,
             "matches": text == decoded
         }
     except Exception as e:
-        print(f"Processing error: {str(e)}")
-        return {
-            "error": str(e),
-            "original": text,
-            "tokens": [],
-            "token_details": [],
-            "decoded": text,
-            "matches": False
-        }
+        print(f"Error: {str(e)}")
+        return {"error": str(e)}
 
 @app.get("/vocab")
 async def get_vocab():

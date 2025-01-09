@@ -79,23 +79,15 @@
                     const row = document.createElement('tr');
                     row.className = 'border-b';
                     
-                    if (detail.type === 'complete_word') {
-                        row.innerHTML = `
-                            <td class="p-2">${detail.word}</td>
-                            <td class="p-2">${detail.type}</td>
-                            <td class="p-2">Token ID: ${detail.token_id}</td>
-                        `;
-                    } else {
-                        const tokenInfo = detail.tokens.map(t => 
-                            `ID ${t.id}: "${t.text}"`
-                        ).join('<br>');
-                        
-                        row.innerHTML = `
-                            <td class="p-2">${detail.word}</td>
-                            <td class="p-2">${detail.type}</td>
-                            <td class="p-2">${tokenInfo}</td>
-                        `;
-                    }
+                    const tokenInfo = detail.tokens.map(t => 
+                        `ID ${t.id}: "${t.text}"`
+                    ).join('<br>');
+                    
+                    row.innerHTML = `
+                        <td class="p-2">${detail.word}</td>
+                        <td class="p-2">${detail.type}</td>
+                        <td class="p-2">${tokenInfo}</td>
+                    `;
                     
                     detailsBody.appendChild(row);
                 });
