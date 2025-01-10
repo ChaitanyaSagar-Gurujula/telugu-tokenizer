@@ -92,7 +92,7 @@ async def tokenize(request: TokenizeRequest):
             # Add word and its tokens to details
             token_details.append({
                 "word": word,
-                "type": "subword_tokens",
+                "type": "complete_word" if len(word_tokens) == 1 else "subword_tokens",
                 "tokens": [{
                     "id": t,
                     "text": vocab_data.get(str(t), {}).get('text', '[UNKNOWN]')

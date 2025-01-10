@@ -1,6 +1,6 @@
 ---
 title: Telugu Tokenizer App
-emoji: అ
+emoji: 🚀
 colorFrom: indigo
 colorTo: blue
 sdk: docker

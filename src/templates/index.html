@@ -9,6 +9,15 @@
         <h1 class="text-3xl font-bold mb-8">Telugu BPE Tokenizer</h1>
         
         <div class="bg-white rounded-lg shadow p-6">
+            <div class="mb-6">
+                <h3 class="text-lg font-semibold mb-2">Example Texts:</h3>
+                <div class="space-y-2">
+                    <div class="p-2 bg-gray-50 rounded cursor-pointer hover:bg-gray-100" onclick="copyToInput(this)">తిరుపతి తొక్కిలసాట ఘటన తీవ్ర విషాదాన్ని నింపింది.</div>
+                    <div class="p-2 bg-gray-50 rounded cursor-pointer hover:bg-gray-100" onclick="copyToInput(this)">పవర్ స్టార్, ఏపీ డిప్యూటీ సీఎం, జనసేన పార్టీ అధ్యక్షుడు</div>
+                    <div class="p-2 bg-gray-50 rounded cursor-pointer hover:bg-gray-100" onclick="copyToInput(this)">గౌరవనీయులైన తెలంగాణ సీఎం రేవంత్ రెడ్డి హైదరాబాద్ కార్యాలయంలో ఉన్నారు.</div>
+                </div>
+            </div>
+
             <textarea 
                 id="input-text" 
                 class="w-full p-2 border rounded mb-4" 
@@ -56,6 +65,11 @@
     </div>
 
     <script>
+        function copyToInput(element) {
+            const text = element.textContent;
+            document.getElementById('input-text').value = text;
+        }
+        
         async function tokenize() {
             const text = document.getElementById('input-text').value;
             try {
