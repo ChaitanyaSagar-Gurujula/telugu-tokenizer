@@ -1,0 +1,376 @@
+(session10) (base) Chaitanyas-MacBook-Pro:telugu-tokenizer chaitanyasagargurujula$ python src/bpe_tokenizer.py 
+Loading existing base vocabulary...
+Training new tokenizer...
+Loading dataset...
+Preparing training text...
+Loading documents: 100%|█████████████████████████████████████████████████████████████████████| 83866/83866 [00:00<00:00, 88094.70it/s]
+
+Training on 167732 documents...
+Total characters in training data: 105,279,512
+Converting text to token IDs using base vocabulary...
+
+Before training: text bytes length: 283,496,279
+Processing 45 chunks using 11 cores...
+Initial tokenization: 100%|███████████████████████████████████████████████████████████████████████████| 45/45 [00:04<00:00,  9.95it/s]
+
+Base vocabulary size: 2400
+Initial sequence length: 105836015
+Training BPE:   0%|                                                                               | 1/2599 [00:37<26:47:26, 37.12s/it]Merge for (304, 333) already exists in the vocabulary.
+Training BPE:   0%|                                                                               | 4/2599 [01:26<13:45:51, 19.10s/it]Merge for (296, 333) already exists in the vocabulary.
+Training BPE:   0%|▏                                                                              | 6/2599 [01:57<12:20:12, 17.13s/it]Merge for (312, 333) already exists in the vocabulary.
+Training BPE:   1%|▍                                                                             | 16/2599 [04:29<10:44:21, 14.97s/it]Merge for (783, 296) already exists in the vocabulary.
+Training BPE:   1%|▌                                                                             | 19/2599 [05:13<10:29:00, 14.63s/it]Merge for (296, 319) already exists in the vocabulary.
+Training BPE:   1%|▋                                                                             | 23/2599 [06:10<10:13:44, 14.30s/it]Merge for (277, 333) already exists in the vocabulary.
+Training BPE:   1%|▊                                                                             | 27/2599 [07:06<10:01:51, 14.04s/it]Merge for (309, 319) already exists in the vocabulary.
+Training BPE:   1%|▉                                                                              | 29/2599 [07:33<9:54:13, 13.87s/it]Merge for (282, 327) already exists in the vocabulary.
+Training BPE:   1%|█                                                                              | 34/2599 [08:41<9:39:29, 13.56s/it]Merge for (302, 318) already exists in the vocabulary.
+Training BPE:   1%|█▏                                                                             | 38/2599 [09:35<9:36:41, 13.51s/it]Merge for (304, 318) already exists in the vocabulary.
+Training BPE:   2%|█▏                                                                             | 39/2599 [09:48<9:34:36, 13.47s/it]Merge for (298, 2403) already exists in the vocabulary.
+Training BPE:   2%|█▏                                                                             | 41/2599 [10:15<9:31:03, 13.39s/it]Merge for (1023, 292) already exists in the vocabulary.
+Training BPE:   2%|█▎                                                                             | 43/2599 [10:41<9:25:50, 13.28s/it]Merge for (292, 333) already exists in the vocabulary.
+Training BPE:   2%|█▍                                                                             | 48/2599 [11:46<9:13:28, 13.02s/it]Merge for (277, 321) already exists in the vocabulary.
+Training BPE:   2%|█▌                                                                             | 50/2599 [12:12<9:08:03, 12.90s/it]Merge for (304, 319) already exists in the vocabulary.
+Training BPE:   2%|█▋                                                                             | 55/2599 [13:16<9:04:11, 12.83s/it]Merge for (309, 318) already exists in the vocabulary.
+Training BPE:   2%|█▊                                                                             | 58/2599 [13:54<8:59:41, 12.74s/it]Merge for (294, 333) already exists in the vocabulary.
+Training BPE:   2%|█▊                                                                             | 61/2599 [14:32<8:56:47, 12.69s/it]Merge for (306, 2412) already exists in the vocabulary.
+Training BPE:   3%|██                                                                             | 66/2599 [15:34<8:46:39, 12.47s/it]Merge for (292, 319) already exists in the vocabulary.
+Training BPE:   3%|██                                                                             | 68/2599 [15:59<8:43:38, 12.41s/it]Merge for (287, 2412) already exists in the vocabulary.
+Training BPE:   3%|██                                                                             | 69/2599 [16:12<8:43:06, 12.41s/it]Merge for (304, 321) already exists in the vocabulary.
+Training BPE:   3%|██▏                                                                            | 70/2599 [16:24<8:41:57, 12.38s/it]Merge for (287, 2438) already exists in the vocabulary.
+Training BPE:   3%|██▏                                                                            | 72/2599 [16:48<8:38:32, 12.31s/it]Merge for (403, 311) already exists in the vocabulary.
+Training BPE:   3%|██▎                                                                            | 75/2599 [17:25<8:35:33, 12.26s/it]Merge for (296, 321) already exists in the vocabulary.
+Training BPE:   3%|██▎                                                                            | 76/2599 [17:37<8:34:11, 12.23s/it]Merge for (289, 319) already exists in the vocabulary.
+Training BPE:   3%|██▎                                                                            | 77/2599 [17:49<8:30:31, 12.15s/it]Merge for (309, 327) already exists in the vocabulary.
+Training BPE:   3%|██▎                                                                            | 78/2599 [18:01<8:30:18, 12.15s/it]Merge for (298, 2457) already exists in the vocabulary.
+Training BPE:   3%|██▍                                                                            | 80/2599 [18:26<8:28:40, 12.12s/it]Merge for (277, 318) already exists in the vocabulary.
+Training BPE:   3%|██▌                                                                            | 83/2599 [19:02<8:32:24, 12.22s/it]Merge for (282, 333) already exists in the vocabulary.
+Training BPE:   3%|██▌                                                                            | 84/2599 [19:15<8:33:27, 12.25s/it]Merge for (277, 331) already exists in the vocabulary.
+Training BPE:   3%|██▌                                                                            | 86/2599 [19:39<8:31:13, 12.21s/it]Merge for (289, 333) already exists in the vocabulary.
+Training BPE:   3%|██▋                                                                            | 90/2599 [20:27<8:25:58, 12.10s/it]Merge for (277, 330) already exists in the vocabulary.
+Training BPE:   4%|██▊                                                                            | 91/2599 [20:39<8:25:16, 12.09s/it]Merge for (300, 318) already exists in the vocabulary.
+Training BPE:   4%|██▊                                                                            | 94/2599 [21:15<8:23:51, 12.07s/it]Merge for (298, 328) already exists in the vocabulary.
+Training BPE:   4%|██▉                                                                            | 96/2599 [21:39<8:21:06, 12.01s/it]Merge for (1023, 287) already exists in the vocabulary.
+Training BPE:   4%|███                                                                            | 99/2599 [22:15<8:13:43, 11.85s/it]
+Vocab size: 2500: ం + బ = ంబ
+Merge for (298, 318) already exists in the vocabulary.
+Training BPE:   4%|███                                                                           | 100/2599 [22:27<8:15:33, 11.90s/it]Merge for (306, 331) already exists in the vocabulary.
+Training BPE:   4%|███                                                                           | 104/2599 [23:14<8:14:28, 11.89s/it]Merge for (298, 331) already exists in the vocabulary.
+Training BPE:   4%|███▏                                                                          | 106/2599 [23:38<8:11:43, 11.83s/it]Merge for (307, 2412) already exists in the vocabulary.
+Training BPE:   4%|███▎                                                                          | 110/2599 [24:24<8:05:58, 11.71s/it]Merge for (1023, 293) already exists in the vocabulary.
+Training BPE:   4%|███▎                                                                          | 111/2599 [24:36<8:04:27, 11.68s/it]Merge for (503, 282) already exists in the vocabulary.
+Training BPE:   4%|███▎                                                                          | 112/2599 [24:47<7:59:29, 11.57s/it]Merge for (311, 2438) already exists in the vocabulary.
+Training BPE:   4%|███▍                                                                          | 113/2599 [24:59<7:58:49, 11.56s/it]Merge for (279, 321) already exists in the vocabulary.
+Training BPE:   4%|███▍                                                                          | 115/2599 [25:22<7:56:27, 11.51s/it]Merge for (303, 318) already exists in the vocabulary.
+Training BPE:   4%|███▍                                                                          | 116/2599 [25:33<7:56:28, 11.51s/it]Merge for (312, 320) already exists in the vocabulary.
+Training BPE:   5%|███▌                                                                          | 117/2599 [25:45<7:55:38, 11.50s/it]Merge for (306, 327) already exists in the vocabulary.
+Training BPE:   5%|███▌                                                                          | 118/2599 [25:56<7:54:21, 11.47s/it]Merge for (296, 327) already exists in the vocabulary.
+Training BPE:   5%|███▋                                                                          | 121/2599 [26:32<8:06:55, 11.79s/it]Merge for (282, 326) already exists in the vocabulary.
+Training BPE:   5%|███▋                                                                          | 122/2599 [26:44<8:02:47, 11.69s/it]Merge for (298, 326) already exists in the vocabulary.
+Training BPE:   5%|███▋                                                                          | 124/2599 [27:06<7:55:34, 11.53s/it]Merge for (287, 320) already exists in the vocabulary.
+Training BPE:   5%|███▊                                                                          | 126/2599 [27:29<7:50:27, 11.41s/it]Merge for (304, 326) already exists in the vocabulary.
+Training BPE:   5%|███▊                                                                          | 127/2599 [27:40<7:47:41, 11.35s/it]Merge for (294, 327) already exists in the vocabulary.
+Training BPE:   5%|███▊                                                                          | 129/2599 [28:03<7:45:52, 11.32s/it]Merge for (312, 319) already exists in the vocabulary.
+Training BPE:   5%|███▉                                                                          | 133/2599 [28:49<7:50:25, 11.45s/it]Merge for (304, 331) already exists in the vocabulary.
+Training BPE:   5%|████                                                                          | 134/2599 [29:00<7:45:20, 11.33s/it]Merge for (703, 292) already exists in the vocabulary.
+Training BPE:   5%|████                                                                          | 137/2599 [29:33<7:42:08, 11.26s/it]Merge for (277, 327) already exists in the vocabulary.
+Training BPE:   5%|████▎                                                                         | 142/2599 [30:29<7:37:31, 11.17s/it]Merge for (306, 333) already exists in the vocabulary.
+Training BPE:   6%|████▎                                                                         | 144/2599 [30:51<7:34:32, 11.11s/it]Merge for (302, 319) already exists in the vocabulary.
+Training BPE:   6%|████▎                                                                         | 145/2599 [31:03<7:34:21, 11.11s/it]Merge for (310, 318) already exists in the vocabulary.
+Training BPE:   6%|████▍                                                                         | 148/2599 [31:36<7:29:56, 11.01s/it]Merge for (277, 2403) already exists in the vocabulary.
+Training BPE:   6%|████▍                                                                         | 149/2599 [31:47<7:29:45, 11.01s/it]Merge for (304, 322) already exists in the vocabulary.
+Training BPE:   6%|████▌                                                                         | 150/2599 [31:58<7:29:13, 11.01s/it]Merge for (302, 321) already exists in the vocabulary.
+Training BPE:   6%|████▌                                                                         | 152/2599 [32:20<7:29:14, 11.02s/it]Merge for (743, 294) already exists in the vocabulary.
+Training BPE:   6%|████▋                                                                         | 156/2599 [33:03<7:21:49, 10.85s/it]Merge for (294, 2414) already exists in the vocabulary.
+Training BPE:   6%|████▋                                                                         | 157/2599 [33:14<7:23:35, 10.90s/it]Merge for (403, 277) already exists in the vocabulary.
+Training BPE:   6%|████▋                                                                         | 158/2599 [33:25<7:23:33, 10.90s/it]Merge for (643, 289) already exists in the vocabulary.
+Training BPE:   6%|████▊                                                                         | 159/2599 [33:35<7:20:09, 10.82s/it]Merge for (306, 319) already exists in the vocabulary.
+Training BPE:   6%|████▊                                                                         | 162/2599 [34:08<7:19:58, 10.83s/it]Merge for (277, 322) already exists in the vocabulary.
+Training BPE:   6%|████▉                                                                         | 164/2599 [34:30<7:17:59, 10.79s/it]Merge for (703, 309) already exists in the vocabulary.
+Training BPE:   6%|████▉                                                                         | 166/2599 [34:51<7:16:49, 10.77s/it]Merge for (292, 2403) already exists in the vocabulary.
+Training BPE:   6%|█████                                                                         | 168/2599 [35:13<7:15:41, 10.75s/it]Merge for (304, 327) already exists in the vocabulary.
+Training BPE:   7%|█████                                                                         | 170/2599 [35:34<7:16:07, 10.77s/it]Merge for (403, 287) already exists in the vocabulary.
+Training BPE:   7%|█████▏                                                                        | 174/2599 [36:17<7:13:15, 10.72s/it]Merge for (309, 326) already exists in the vocabulary.
+Training BPE:   7%|█████▎                                                                        | 175/2599 [36:28<7:13:08, 10.72s/it]Merge for (301, 321) already exists in the vocabulary.
+Training BPE:   7%|█████▎                                                                        | 179/2599 [37:10<7:10:36, 10.68s/it]Merge for (294, 319) already exists in the vocabulary.
+Training BPE:   7%|█████▍                                                                        | 181/2599 [37:32<7:11:27, 10.71s/it]Merge for (284, 320) already exists in the vocabulary.
+Training BPE:   7%|█████▋                                                                        | 189/2599 [38:58<7:19:21, 10.94s/it]Merge for (296, 318) already exists in the vocabulary.
+Training BPE:   7%|█████▋                                                                        | 191/2599 [39:20<7:14:50, 10.83s/it]Merge for (302, 2537) already exists in the vocabulary.
+Training BPE:   7%|█████▊                                                                        | 192/2599 [39:30<7:09:39, 10.71s/it]Merge for (302, 326) already exists in the vocabulary.
+Training BPE:   7%|█████▊                                                                        | 193/2599 [39:41<7:07:00, 10.65s/it]Merge for (306, 321) already exists in the vocabulary.
+Training BPE:   7%|█████▊                                                                        | 194/2599 [39:51<7:04:38, 10.59s/it]Merge for (279, 318) already exists in the vocabulary.
+Training BPE:   8%|█████▊                                                                        | 195/2599 [40:02<7:03:07, 10.56s/it]Merge for (279, 2403) already exists in the vocabulary.
+Training BPE:   8%|█████▉                                                                        | 196/2599 [40:12<7:03:23, 10.57s/it]Merge for (294, 318) already exists in the vocabulary.
+Training BPE:   8%|█████▉                                                                        | 197/2599 [40:23<7:02:25, 10.55s/it]Merge for (284, 2414) already exists in the vocabulary.
+Training BPE:   8%|█████▉                                                                        | 199/2599 [40:43<6:56:46, 10.42s/it]
+Vocab size: 2600: ష్ట + ్ర = ష్ట్ర
+Training BPE:   8%|██████                                                                        | 200/2599 [40:54<6:56:33, 10.42s/it]Merge for (294, 321) already exists in the vocabulary.
+Training BPE:   8%|██████                                                                        | 202/2599 [41:15<6:55:18, 10.40s/it]Merge for (312, 326) already exists in the vocabulary.
+Training BPE:   8%|██████                                                                        | 204/2599 [41:35<6:54:53, 10.39s/it]Merge for (313, 328) already exists in the vocabulary.
+Training BPE:   8%|██████▏                                                                       | 205/2599 [41:46<6:54:28, 10.39s/it]Merge for (289, 318) already exists in the vocabulary.
+Training BPE:   8%|██████▏                                                                       | 208/2599 [42:17<6:55:27, 10.43s/it]Merge for (292, 320) already exists in the vocabulary.
+Training BPE:   8%|██████▍                                                                       | 214/2599 [43:19<6:49:01, 10.29s/it]Merge for (296, 320) already exists in the vocabulary.
+Training BPE:   8%|██████▍                                                                       | 215/2599 [43:29<6:49:19, 10.30s/it]Merge for (294, 320) already exists in the vocabulary.
+Training BPE:   8%|██████▍                                                                       | 216/2599 [43:40<6:49:14, 10.30s/it]Merge for (287, 319) already exists in the vocabulary.
+Training BPE:   8%|██████▌                                                                       | 220/2599 [44:21<6:43:30, 10.18s/it]Merge for (309, 320) already exists in the vocabulary.
+Training BPE:   9%|██████▋                                                                       | 222/2599 [44:41<6:43:40, 10.19s/it]Merge for (295, 2414) already exists in the vocabulary.
+Training BPE:   9%|██████▉                                                                       | 230/2599 [46:03<6:43:24, 10.22s/it]Merge for (300, 320) already exists in the vocabulary.
+Training BPE:   9%|██████▉                                                                       | 231/2599 [46:13<6:43:10, 10.22s/it]Merge for (310, 2403) already exists in the vocabulary.
+Training BPE:   9%|███████                                                                       | 234/2599 [46:43<6:42:05, 10.20s/it]Merge for (783, 303) already exists in the vocabulary.
+Training BPE:   9%|███████▏                                                                      | 240/2599 [47:45<6:38:23, 10.13s/it]Merge for (298, 327) already exists in the vocabulary.
+Training BPE:   9%|███████▎                                                                      | 243/2599 [48:15<6:35:26, 10.07s/it]Merge for (310, 333) already exists in the vocabulary.
+Training BPE:   9%|███████▍                                                                      | 246/2599 [48:45<6:33:10, 10.03s/it]Merge for (312, 318) already exists in the vocabulary.
+Training BPE:  10%|███████▌                                                                      | 250/2599 [49:25<6:30:14,  9.97s/it]Merge for (306, 318) already exists in the vocabulary.
+Training BPE:  10%|███████▌                                                                      | 251/2599 [49:35<6:31:08, 10.00s/it]Merge for (302, 328) already exists in the vocabulary.
+Training BPE:  10%|███████▌                                                                      | 252/2599 [49:45<6:31:56, 10.02s/it]Merge for (309, 2414) already exists in the vocabulary.
+Training BPE:  10%|███████▋                                                                      | 257/2599 [50:35<6:30:24, 10.00s/it]Merge for (298, 320) already exists in the vocabulary.
+Training BPE:  10%|███████▋                                                                      | 258/2599 [50:45<6:30:24, 10.01s/it]Merge for (289, 321) already exists in the vocabulary.
+Training BPE:  10%|███████▊                                                                      | 260/2599 [51:04<6:28:06,  9.96s/it]Merge for (300, 333) already exists in the vocabulary.
+Training BPE:  10%|███████▉                                                                      | 263/2599 [51:34<6:26:37,  9.93s/it]Merge for (312, 321) already exists in the vocabulary.
+Training BPE:  10%|███████▉                                                                      | 266/2599 [52:04<6:25:29,  9.91s/it]Merge for (311, 333) already exists in the vocabulary.
+Training BPE:  10%|████████                                                                      | 268/2599 [52:24<6:24:38,  9.90s/it]Merge for (298, 321) already exists in the vocabulary.
+Training BPE:  10%|████████                                                                      | 269/2599 [52:34<6:24:45,  9.91s/it]Merge for (312, 258) already exists in the vocabulary.
+Training BPE:  10%|████████▏                                                                     | 271/2599 [52:54<6:31:20, 10.09s/it]Merge for (284, 318) already exists in the vocabulary.
+Training BPE:  11%|████████▎                                                                     | 275/2599 [53:35<6:30:29, 10.08s/it]Merge for (302, 331) already exists in the vocabulary.
+Training BPE:  11%|████████▎                                                                     | 278/2599 [54:04<6:19:09,  9.80s/it]Merge for (923, 310) already exists in the vocabulary.
+Training BPE:  11%|████████▍                                                                     | 283/2599 [54:53<6:17:56,  9.79s/it]Merge for (743, 295) already exists in the vocabulary.
+Training BPE:  11%|████████▌                                                                     | 286/2599 [55:22<6:16:20,  9.76s/it]Merge for (304, 320) already exists in the vocabulary.
+Training BPE:  11%|████████▋                                                                     | 289/2599 [55:52<6:13:59,  9.71s/it]Merge for (309, 328) already exists in the vocabulary.
+Training BPE:  11%|████████▋                                                                     | 291/2599 [56:11<6:13:59,  9.72s/it]Merge for (282, 319) already exists in the vocabulary.
+Training BPE:  11%|████████▊                                                                     | 293/2599 [56:30<6:13:50,  9.73s/it]Merge for (279, 333) already exists in the vocabulary.
+Training BPE:  11%|████████▉                                                                     | 297/2599 [57:09<6:09:01,  9.62s/it]Merge for (292, 2414) already exists in the vocabulary.
+Training BPE:  12%|████████▉                                                                     | 299/2599 [57:28<6:09:03,  9.63s/it]
+Vocab size: 2700: చ + ార = చార
+Training BPE:  12%|█████████                                                                     | 302/2599 [57:57<6:07:00,  9.59s/it]Merge for (302, 320) already exists in the vocabulary.
+Training BPE:  12%|█████████▏                                                                    | 308/2599 [58:54<6:05:50,  9.58s/it]Merge for (302, 327) already exists in the vocabulary.
+Training BPE:  12%|█████████▎                                                                    | 310/2599 [59:13<6:03:35,  9.53s/it]Merge for (304, 328) already exists in the vocabulary.
+Training BPE:  12%|█████████▍                                                                  | 321/2599 [1:00:58<5:58:43,  9.45s/it]Merge for (303, 2414) already exists in the vocabulary.
+Training BPE:  12%|█████████▍                                                                  | 322/2599 [1:01:07<5:58:57,  9.46s/it]Merge for (292, 318) already exists in the vocabulary.
+Training BPE:  13%|█████████▌                                                                  | 326/2599 [1:01:45<5:55:14,  9.38s/it]Merge for (289, 320) already exists in the vocabulary.
+Training BPE:  13%|█████████▋                                                                  | 331/2599 [1:02:32<5:54:40,  9.38s/it]Merge for (287, 333) already exists in the vocabulary.
+Training BPE:  13%|█████████▋                                                                  | 332/2599 [1:02:41<5:54:26,  9.38s/it]Merge for (287, 321) already exists in the vocabulary.
+Training BPE:  13%|█████████▉                                                                  | 341/2599 [1:04:05<5:50:36,  9.32s/it]Merge for (284, 327) already exists in the vocabulary.
+Training BPE:  14%|██████████▎                                                                 | 351/2599 [1:05:38<5:50:00,  9.34s/it]Merge for (277, 326) already exists in the vocabulary.
+Training BPE:  14%|██████████▎                                                                 | 353/2599 [1:05:57<5:48:10,  9.30s/it]Merge for (1023, 298) already exists in the vocabulary.
+Training BPE:  14%|██████████▌                                                                 | 361/2599 [1:07:11<5:45:45,  9.27s/it]Merge for (302, 322) already exists in the vocabulary.
+Training BPE:  14%|██████████▌                                                                 | 363/2599 [1:07:30<5:44:06,  9.23s/it]Merge for (287, 2403) already exists in the vocabulary.
+Training BPE:  14%|██████████▉                                                                 | 372/2599 [1:08:52<5:41:05,  9.19s/it]Merge for (295, 318) already exists in the vocabulary.
+Training BPE:  15%|███████████                                                                 | 377/2599 [1:09:38<5:38:03,  9.13s/it]Merge for (279, 330) already exists in the vocabulary.
+Training BPE:  15%|███████████                                                                 | 380/2599 [1:10:06<5:37:53,  9.14s/it]Merge for (298, 333) already exists in the vocabulary.
+Training BPE:  15%|███████████▎                                                                | 385/2599 [1:10:51<5:34:22,  9.06s/it]Merge for (309, 333) already exists in the vocabulary.
+Training BPE:  15%|███████████▎                                                                | 388/2599 [1:11:18<5:34:17,  9.07s/it]Merge for (302, 330) already exists in the vocabulary.
+Training BPE:  15%|███████████▍                                                                | 391/2599 [1:11:45<5:32:07,  9.03s/it]Merge for (278, 2414) already exists in the vocabulary.
+Training BPE:  15%|███████████▍                                                                | 392/2599 [1:11:54<5:30:20,  8.98s/it]Merge for (301, 318) already exists in the vocabulary.
+Training BPE:  15%|███████████▋                                                                | 399/2599 [1:12:57<5:30:04,  9.00s/it]
+Vocab size: 2800: ల + ీస = లీస
+Training BPE:  15%|███████████▋                                                                | 400/2599 [1:13:06<5:30:41,  9.02s/it]Merge for (843, 300) already exists in the vocabulary.
+Training BPE:  16%|███████████▊                                                                | 405/2599 [1:13:52<5:30:04,  9.03s/it]Merge for (298, 330) already exists in the vocabulary.
+Training BPE:  16%|████████████▎                                                               | 420/2599 [1:16:05<5:24:36,  8.94s/it]Merge for (282, 322) already exists in the vocabulary.
+Training BPE:  16%|████████████▎                                                               | 422/2599 [1:16:23<5:23:56,  8.93s/it]Merge for (923, 292) already exists in the vocabulary.
+Training BPE:  16%|████████████▎                                                               | 423/2599 [1:16:32<5:23:55,  8.93s/it]Merge for (301, 2414) already exists in the vocabulary.
+Training BPE:  16%|████████████▍                                                               | 425/2599 [1:16:50<5:22:38,  8.90s/it]Merge for (279, 331) already exists in the vocabulary.
+Training BPE:  16%|████████████▌                                                               | 428/2599 [1:17:17<5:24:58,  8.98s/it]Merge for (303, 319) already exists in the vocabulary.
+Training BPE:  17%|█████████████                                                               | 446/2599 [1:19:56<5:15:42,  8.80s/it]Merge for (313, 318) already exists in the vocabulary.
+Training BPE:  17%|█████████████▏                                                              | 449/2599 [1:20:23<5:17:26,  8.86s/it]Merge for (301, 319) already exists in the vocabulary.
+Training BPE:  17%|█████████████▏                                                              | 450/2599 [1:20:31<5:16:23,  8.83s/it]Merge for (277, 319) already exists in the vocabulary.
+Training BPE:  17%|█████████████▏                                                              | 452/2599 [1:20:49<5:15:23,  8.81s/it]Merge for (312, 331) already exists in the vocabulary.
+Training BPE:  17%|█████████████▏                                                              | 453/2599 [1:20:58<5:15:21,  8.82s/it]Merge for (284, 319) already exists in the vocabulary.
+Training BPE:  17%|█████████████▎                                                              | 454/2599 [1:21:07<5:14:49,  8.81s/it]Merge for (312, 327) already exists in the vocabulary.
+Training BPE:  18%|█████████████▍                                                              | 460/2599 [1:21:59<5:12:18,  8.76s/it]Merge for (287, 326) already exists in the vocabulary.
+Training BPE:  18%|█████████████▌                                                              | 462/2599 [1:22:17<5:13:12,  8.79s/it]Merge for (313, 326) already exists in the vocabulary.
+Training BPE:  18%|█████████████▌                                                              | 465/2599 [1:22:43<5:13:17,  8.81s/it]Merge for (284, 326) already exists in the vocabulary.
+Training BPE:  18%|█████████████▊                                                              | 471/2599 [1:23:36<5:09:57,  8.74s/it]Merge for (277, 323) already exists in the vocabulary.
+Training BPE:  18%|█████████████▉                                                              | 475/2599 [1:24:11<5:05:57,  8.64s/it]Merge for (298, 319) already exists in the vocabulary.
+Training BPE:  19%|██████████████▏                                                             | 485/2599 [1:25:37<5:03:47,  8.62s/it]Merge for (310, 319) already exists in the vocabulary.
+Training BPE:  19%|██████████████▎                                                             | 489/2599 [1:26:11<5:03:59,  8.64s/it]Merge for (312, 322) already exists in the vocabulary.
+Training BPE:  19%|██████████████▍                                                             | 494/2599 [1:26:55<5:02:17,  8.62s/it]Merge for (301, 322) already exists in the vocabulary.
+Training BPE:  19%|██████████████▌                                                             | 499/2599 [1:27:38<5:01:00,  8.60s/it]
+Vocab size: 2900: న + ున్న = నున్న
+Training BPE:  19%|██████████████▋                                                             | 503/2599 [1:28:12<4:57:10,  8.51s/it]Merge for (279, 319) already exists in the vocabulary.
+Training BPE:  20%|███████████████                                                             | 515/2599 [1:29:54<4:55:09,  8.50s/it]Merge for (300, 321) already exists in the vocabulary.
+Training BPE:  20%|███████████████▏                                                            | 520/2599 [1:30:37<4:55:10,  8.52s/it]Merge for (312, 328) already exists in the vocabulary.
+Training BPE:  20%|███████████████▎                                                            | 524/2599 [1:31:11<4:57:02,  8.59s/it]Merge for (303, 322) already exists in the vocabulary.
+Training BPE:  20%|███████████████▎                                                            | 525/2599 [1:31:20<4:57:28,  8.61s/it]Merge for (963, 309) already exists in the vocabulary.
+Training BPE:  20%|███████████████▍                                                            | 526/2599 [1:31:28<4:56:30,  8.58s/it]Merge for (299, 319) already exists in the vocabulary.
+Training BPE:  20%|███████████████▍                                                            | 527/2599 [1:31:37<4:56:00,  8.57s/it]Merge for (300, 326) already exists in the vocabulary.
+Training BPE:  21%|███████████████▋                                                            | 535/2599 [1:32:44<4:51:41,  8.48s/it]Merge for (443, 279) already exists in the vocabulary.
+Training BPE:  21%|███████████████▋                                                            | 536/2599 [1:32:53<4:51:43,  8.48s/it]Merge for (300, 331) already exists in the vocabulary.
+Training BPE:  21%|███████████████▋                                                            | 537/2599 [1:33:01<4:52:00,  8.50s/it]Merge for (306, 320) already exists in the vocabulary.
+Training BPE:  21%|███████████████▊                                                            | 539/2599 [1:33:19<4:53:04,  8.54s/it]Merge for (703, 312) already exists in the vocabulary.
+Training BPE:  22%|████████████████▍                                                           | 563/2599 [1:36:40<4:45:12,  8.41s/it]Merge for (1023, 303) already exists in the vocabulary.
+Training BPE:  22%|████████████████▌                                                           | 566/2599 [1:37:06<4:44:06,  8.38s/it]Merge for (292, 330) already exists in the vocabulary.
+Training BPE:  22%|████████████████▌                                                           | 568/2599 [1:37:22<4:44:37,  8.41s/it]Merge for (294, 2403) already exists in the vocabulary.
+Training BPE:  22%|████████████████▉                                                           | 579/2599 [1:38:55<4:43:24,  8.42s/it]Merge for (306, 328) already exists in the vocabulary.
+Training BPE:  22%|████████████████▉                                                           | 581/2599 [1:39:12<4:43:46,  8.44s/it]Merge for (923, 282) already exists in the vocabulary.
+Training BPE:  23%|█████████████████▍                                                          | 597/2599 [1:41:26<4:38:58,  8.36s/it]Merge for (309, 323) already exists in the vocabulary.
+Training BPE:  23%|█████████████████▌                                                          | 599/2599 [1:41:43<4:39:47,  8.39s/it]
+Vocab size: 3000:  (ఆంధ్రజ్యోతి) + :  =  (ఆంధ్రజ్యోతి): 
+Training BPE:  23%|█████████████████▌                                                          | 601/2599 [1:42:00<4:38:34,  8.37s/it]Merge for (923, 302) already exists in the vocabulary.
+Training BPE:  23%|█████████████████▊                                                          | 609/2599 [1:43:06<4:36:56,  8.35s/it]Merge for (923, 293) already exists in the vocabulary.
+Training BPE:  23%|█████████████████▊                                                          | 610/2599 [1:43:15<4:37:18,  8.37s/it]Merge for (296, 331) already exists in the vocabulary.
+Training BPE:  24%|█████████████████▉                                                          | 612/2599 [1:43:32<4:37:01,  8.37s/it]Merge for (300, 319) already exists in the vocabulary.
+Training BPE:  24%|█████████████████▉                                                          | 613/2599 [1:43:40<4:35:10,  8.31s/it]Merge for (289, 2403) already exists in the vocabulary.
+Training BPE:  24%|█████████████████▉                                                          | 614/2599 [1:43:48<4:34:45,  8.31s/it]Merge for (296, 326) already exists in the vocabulary.
+Training BPE:  24%|██████████████████                                                          | 616/2599 [1:44:05<4:34:12,  8.30s/it]Merge for (310, 321) already exists in the vocabulary.
+Training BPE:  24%|██████████████████                                                          | 619/2599 [1:44:30<4:36:34,  8.38s/it]Merge for (292, 327) already exists in the vocabulary.
+Training BPE:  24%|██████████████████▎                                                         | 626/2599 [1:45:28<4:33:09,  8.31s/it]Merge for (284, 333) already exists in the vocabulary.
+Training BPE:  24%|██████████████████▌                                                         | 633/2599 [1:46:26<4:31:57,  8.30s/it]Merge for (1003, 291) already exists in the vocabulary.
+Training BPE:  25%|██████████████████▋                                                         | 637/2599 [1:46:59<4:31:02,  8.29s/it]Merge for (295, 319) already exists in the vocabulary.
+Training BPE:  25%|██████████████████▉                                                         | 649/2599 [1:48:38<4:28:15,  8.25s/it]Merge for (278, 318) already exists in the vocabulary.
+Training BPE:  25%|███████████████████▎                                                        | 660/2599 [1:50:09<4:27:54,  8.29s/it]Merge for (282, 328) already exists in the vocabulary.
+Training BPE:  26%|███████████████████▍                                                        | 663/2599 [1:50:34<4:26:33,  8.26s/it]Merge for (313, 319) already exists in the vocabulary.
+Training BPE:  26%|███████████████████▌                                                        | 671/2599 [1:51:40<4:24:56,  8.24s/it]Merge for (292, 321) already exists in the vocabulary.
+Training BPE:  26%|███████████████████▊                                                        | 677/2599 [1:52:30<4:23:41,  8.23s/it]Merge for (292, 331) already exists in the vocabulary.
+Training BPE:  27%|████████████████████▍                                                       | 699/2599 [1:55:28<4:16:20,  8.09s/it]
+Vocab size: 3100: ,  + నవంబరు  = , నవంబరు 
+Training BPE:  27%|████████████████████▊                                                       | 712/2599 [1:57:13<4:14:06,  8.08s/it]Merge for (306, 326) already exists in the vocabulary.
+Training BPE:  28%|████████████████████▉                                                       | 716/2599 [1:57:46<4:13:56,  8.09s/it]Merge for (296, 322) already exists in the vocabulary.
+Training BPE:  28%|████████████████████▉                                                       | 717/2599 [1:57:54<4:15:07,  8.13s/it]Merge for (277, 320) already exists in the vocabulary.
+Training BPE:  29%|█████████████████████▉                                                      | 749/2599 [2:02:11<4:06:19,  7.99s/it]Merge for (302, 333) already exists in the vocabulary.
+Training BPE:  29%|██████████████████████                                                      | 756/2599 [2:03:08<4:07:00,  8.04s/it]Merge for (287, 318) already exists in the vocabulary.
+Training BPE:  29%|██████████████████████▎                                                     | 761/2599 [2:03:48<4:06:58,  8.06s/it]Merge for (299, 331) already exists in the vocabulary.
+Training BPE:  29%|██████████████████████▍                                                     | 766/2599 [2:04:28<4:03:32,  7.97s/it]Merge for (292, 326) already exists in the vocabulary.
+Training BPE:  30%|██████████████████████▌                                                     | 771/2599 [2:05:08<4:01:41,  7.93s/it]Merge for (803, 292) already exists in the vocabulary.
+Training BPE:  30%|██████████████████████▋                                                     | 776/2599 [2:05:48<4:02:30,  7.98s/it]Merge for (306, 2457) already exists in the vocabulary.
+Training BPE:  30%|██████████████████████▉                                                     | 783/2599 [2:06:44<4:04:33,  8.08s/it]Merge for (403, 292) already exists in the vocabulary.
+Training BPE:  31%|███████████████████████▏                                                    | 794/2599 [2:08:14<4:04:44,  8.14s/it]Merge for (309, 2403) already exists in the vocabulary.
+Training BPE:  31%|███████████████████████▎                                                    | 799/2599 [2:08:54<4:04:07,  8.14s/it]
+Vocab size: 3200: ో + జ = ోజ
+Training BPE:  31%|███████████████████████▌                                                    | 804/2599 [2:09:35<4:03:09,  8.13s/it]Merge for (291, 318) already exists in the vocabulary.
+Training BPE:  31%|███████████████████████▌                                                    | 807/2599 [2:09:59<4:02:25,  8.12s/it]Merge for (309, 321) already exists in the vocabulary.
+Training BPE:  32%|████████████████████████                                                    | 823/2599 [2:12:07<3:56:31,  7.99s/it]Merge for (923, 309) already exists in the vocabulary.
+Training BPE:  32%|████████████████████████▍                                                   | 837/2599 [2:14:00<3:54:25,  7.98s/it]Merge for (309, 331) already exists in the vocabulary.
+Training BPE:  32%|████████████████████████▋                                                   | 844/2599 [2:14:56<3:57:36,  8.12s/it]Merge for (289, 326) already exists in the vocabulary.
+Training BPE:  33%|█████████████████████████                                                   | 856/2599 [2:16:33<3:52:33,  8.01s/it]Merge for (313, 331) already exists in the vocabulary.
+Training BPE:  33%|█████████████████████████▍                                                  | 868/2599 [2:18:09<3:51:08,  8.01s/it]Merge for (298, 2438) already exists in the vocabulary.
+Training BPE:  34%|█████████████████████████▍                                                  | 871/2599 [2:18:33<3:51:14,  8.03s/it]Merge for (295, 333) already exists in the vocabulary.
+Training BPE:  34%|█████████████████████████▊                                                  | 882/2599 [2:20:01<3:50:30,  8.05s/it]Merge for (298, 322) already exists in the vocabulary.
+Training BPE:  34%|█████████████████████████▉                                                  | 889/2599 [2:20:58<3:48:58,  8.03s/it]Merge for (287, 331) already exists in the vocabulary.
+Training BPE:  35%|██████████████████████████▎                                                 | 899/2599 [2:22:18<3:48:23,  8.06s/it]
+Vocab size: 3300: ుగ + ు  = ుగు 
+Training BPE:  35%|██████████████████████████▌                                                 | 907/2599 [2:23:23<3:47:26,  8.07s/it]Merge for (299, 333) already exists in the vocabulary.
+Training BPE:  35%|██████████████████████████▋                                                 | 914/2599 [2:24:18<3:42:35,  7.93s/it]Merge for (1023, 309) already exists in the vocabulary.
+Training BPE:  36%|███████████████████████████▎                                                | 933/2599 [2:26:51<3:42:47,  8.02s/it]Merge for (300, 2403) already exists in the vocabulary.
+Training BPE:  36%|███████████████████████████▋                                                | 948/2599 [2:28:52<3:40:22,  8.01s/it]Merge for (279, 332) already exists in the vocabulary.
+Training BPE:  37%|████████████████████████████▍                                               | 974/2599 [2:32:20<3:38:58,  8.09s/it]Merge for (284, 328) already exists in the vocabulary.
+Training BPE:  38%|████████████████████████████▌                                               | 978/2599 [2:32:52<3:37:19,  8.04s/it]Merge for (279, 2414) already exists in the vocabulary.
+Training BPE:  38%|█████████████████████████████▏                                              | 996/2599 [2:35:16<3:34:13,  8.02s/it]Merge for (282, 318) already exists in the vocabulary.
+Training BPE:  38%|█████████████████████████████▏                                              | 999/2599 [2:35:40<3:33:57,  8.02s/it]
+Vocab size: 3400: వ + ్  = వ్ 
+Training BPE:  38%|████████████████████████████▊                                              | 1000/2599 [2:35:48<3:34:52,  8.06s/it]Merge for (284, 331) already exists in the vocabulary.
+Training BPE:  39%|█████████████████████████████▍                                             | 1019/2599 [2:38:19<3:27:43,  7.89s/it]Merge for (299, 326) already exists in the vocabulary.
+Training BPE:  39%|█████████████████████████████▌                                             | 1025/2599 [2:39:07<3:29:29,  7.99s/it]Merge for (307, 318) already exists in the vocabulary.
+Training BPE:  40%|█████████████████████████████▊                                             | 1034/2599 [2:40:19<3:25:44,  7.89s/it]Merge for (313, 320) already exists in the vocabulary.
+Training BPE:  40%|█████████████████████████████▉                                             | 1039/2599 [2:40:58<3:25:01,  7.89s/it]Merge for (983, 296) already exists in the vocabulary.
+Training BPE:  40%|██████████████████████████████▏                                            | 1048/2599 [2:42:10<3:26:27,  7.99s/it]Merge for (289, 327) already exists in the vocabulary.
+Training BPE:  41%|██████████████████████████████▉                                            | 1074/2599 [2:45:37<3:19:53,  7.86s/it]Merge for (287, 328) already exists in the vocabulary.
+Training BPE:  42%|███████████████████████████████▋                                           | 1097/2599 [2:48:39<3:18:38,  7.94s/it]Merge for (289, 328) already exists in the vocabulary.
+Training BPE:  42%|███████████████████████████████▋                                           | 1098/2599 [2:48:47<3:20:05,  8.00s/it]Merge for (302, 323) already exists in the vocabulary.
+Training BPE:  42%|███████████████████████████████▋                                           | 1099/2599 [2:48:55<3:19:12,  7.97s/it]
+Vocab size: 3500: మ + ృ = మృ
+Training BPE:  43%|████████████████████████████████▏                                          | 1114/2599 [2:50:55<3:18:19,  8.01s/it]Merge for (311, 327) already exists in the vocabulary.
+Training BPE:  44%|████████████████████████████████▉                                          | 1140/2599 [2:54:21<3:13:37,  7.96s/it]Merge for (294, 322) already exists in the vocabulary.
+Training BPE:  45%|█████████████████████████████████▍                                         | 1158/2599 [2:56:44<3:11:07,  7.96s/it]Merge for (299, 320) already exists in the vocabulary.
+Training BPE:  45%|██████████████████████████████████                                         | 1181/2599 [2:59:46<3:06:18,  7.88s/it]Merge for (983, 309) already exists in the vocabulary.
+Training BPE:  46%|██████████████████████████████████▌                                        | 1199/2599 [3:02:09<3:04:53,  7.92s/it]
+Vocab size: 3600: స్ట + ే = స్టే
+Training BPE:  47%|██████████████████████████████████▉                                        | 1210/2599 [3:03:37<3:04:37,  7.98s/it]Merge for (311, 318) already exists in the vocabulary.
+Training BPE:  47%|███████████████████████████████████                                        | 1214/2599 [3:04:08<3:01:11,  7.85s/it]Merge for (300, 2412) already exists in the vocabulary.
+Training BPE:  47%|███████████████████████████████████▎                                       | 1224/2599 [3:05:26<2:59:35,  7.84s/it]Merge for (282, 331) already exists in the vocabulary.
+Training BPE:  47%|███████████████████████████████████▍                                       | 1226/2599 [3:05:42<3:00:33,  7.89s/it]Merge for (299, 328) already exists in the vocabulary.
+Training BPE:  48%|███████████████████████████████████▊                                       | 1241/2599 [3:07:40<2:57:38,  7.85s/it]Merge for (307, 333) already exists in the vocabulary.
+Training BPE:  48%|████████████████████████████████████▏                                      | 1254/2599 [3:09:23<2:57:35,  7.92s/it]Merge for (310, 327) already exists in the vocabulary.
+Training BPE:  49%|████████████████████████████████████▌                                      | 1268/2599 [3:11:12<2:53:54,  7.84s/it]Merge for (923, 279) already exists in the vocabulary.
+Training BPE:  49%|████████████████████████████████████▊                                      | 1274/2599 [3:11:59<2:50:48,  7.73s/it]Merge for (303, 321) already exists in the vocabulary.
+Training BPE:  49%|████████████████████████████████████▉                                      | 1279/2599 [3:12:39<2:53:24,  7.88s/it]Merge for (284, 321) already exists in the vocabulary.
+Training BPE:  49%|████████████████████████████████████▉                                      | 1280/2599 [3:12:47<2:53:37,  7.90s/it]Merge for (294, 331) already exists in the vocabulary.
+Training BPE:  50%|█████████████████████████████████████▍                                     | 1298/2599 [3:15:08<2:49:45,  7.83s/it]Merge for (923, 298) already exists in the vocabulary.
+Training BPE:  50%|█████████████████████████████████████▍                                     | 1299/2599 [3:15:16<2:49:19,  7.82s/it]
+Vocab size: 3700: ర్ + ప = ర్ప
+Training BPE:  50%|█████████████████████████████████████▋                                     | 1306/2599 [3:16:11<2:48:35,  7.82s/it]Merge for (284, 322) already exists in the vocabulary.
+Training BPE:  50%|█████████████████████████████████████▊                                     | 1309/2599 [3:16:34<2:47:53,  7.81s/it]Merge for (310, 331) already exists in the vocabulary.
+Training BPE:  51%|█████████████████████████████████████▉                                     | 1314/2599 [3:17:13<2:48:02,  7.85s/it]Merge for (287, 327) already exists in the vocabulary.
+Training BPE:  51%|██████████████████████████████████████▍                                    | 1334/2599 [3:19:48<2:45:00,  7.83s/it]Merge for (282, 321) already exists in the vocabulary.
+Training BPE:  52%|██████████████████████████████████████▋                                    | 1341/2599 [3:20:43<2:42:21,  7.74s/it]Merge for (277, 332) already exists in the vocabulary.
+Training BPE:  52%|██████████████████████████████████████▊                                    | 1343/2599 [3:20:58<2:42:16,  7.75s/it]Merge for (277, 2412) already exists in the vocabulary.
+Training BPE:  52%|██████████████████████████████████████▊                                    | 1346/2599 [3:21:22<2:42:56,  7.80s/it]Merge for (282, 320) already exists in the vocabulary.
+Training BPE:  52%|██████████████████████████████████████▉                                    | 1349/2599 [3:21:45<2:41:49,  7.77s/it]Merge for (299, 2438) already exists in the vocabulary.
+Training BPE:  54%|████████████████████████████████████████▏                                  | 1392/2599 [3:27:18<2:36:01,  7.76s/it]Merge for (289, 2412) already exists in the vocabulary.
+Training BPE:  54%|████████████████████████████████████████▎                                  | 1399/2599 [3:28:12<2:33:45,  7.69s/it]
+Vocab size: 3800: ఫిర్యా + దు  = ఫిర్యాదు 
+Training BPE:  55%|█████████████████████████████████████████                                  | 1421/2599 [3:31:01<2:29:57,  7.64s/it]Merge for (294, 330) already exists in the vocabulary.
+Training BPE:  55%|█████████████████████████████████████████▌                                 | 1442/2599 [3:33:44<2:29:12,  7.74s/it]Merge for (313, 333) already exists in the vocabulary.
+Training BPE:  57%|██████████████████████████████████████████▋                                | 1478/2599 [3:38:20<2:23:52,  7.70s/it]Merge for (783, 312) already exists in the vocabulary.
+Training BPE:  57%|██████████████████████████████████████████▊                                | 1483/2599 [3:38:57<2:20:01,  7.53s/it]Merge for (1003, 288) already exists in the vocabulary.
+Training BPE:  57%|███████████████████████████████████████████                                | 1491/2599 [3:39:59<2:21:18,  7.65s/it]Merge for (703, 302) already exists in the vocabulary.
+Training BPE:  58%|███████████████████████████████████████████▎                               | 1499/2599 [3:41:01<2:20:24,  7.66s/it]
+Vocab size: 3900: మాట్లాడ + ారు.  = మాట్లాడారు. 
+Training BPE:  58%|███████████████████████████████████████████▌                               | 1508/2599 [3:42:10<2:18:48,  7.63s/it]Merge for (312, 330) already exists in the vocabulary.
+Training BPE:  60%|█████████████████████████████████████████████▏                             | 1565/2599 [3:49:23<2:10:01,  7.55s/it]Merge for (298, 2412) already exists in the vocabulary.
+Training BPE:  61%|█████████████████████████████████████████████▋                             | 1585/2599 [3:51:55<2:07:34,  7.55s/it]Merge for (300, 328) already exists in the vocabulary.
+Training BPE:  61%|██████████████████████████████████████████████                             | 1597/2599 [3:53:26<2:04:38,  7.46s/it]Merge for (296, 328) already exists in the vocabulary.
+Training BPE:  62%|██████████████████████████████████████████████▏                            | 1599/2599 [3:53:41<2:05:58,  7.56s/it]
+Vocab size: 4000: తి + ని  = తిని 
+Training BPE:  62%|██████████████████████████████████████████████▍                            | 1611/2599 [3:55:11<2:01:21,  7.37s/it]Merge for (284, 2403) already exists in the vocabulary.
+Training BPE:  62%|██████████████████████████████████████████████▌                            | 1613/2599 [3:55:25<2:00:58,  7.36s/it]Merge for (303, 331) already exists in the vocabulary.
+Training BPE:  63%|███████████████████████████████████████████████                            | 1630/2599 [3:57:33<2:00:49,  7.48s/it]Merge for (543, 286) already exists in the vocabulary.
+Training BPE:  63%|███████████████████████████████████████████████▎                           | 1639/2599 [3:58:40<1:59:28,  7.47s/it]Merge for (1023, 312) already exists in the vocabulary.
+Training BPE:  64%|███████████████████████████████████████████████▋                           | 1653/2599 [4:00:24<1:57:20,  7.44s/it]Merge for (300, 327) already exists in the vocabulary.
+Training BPE:  64%|████████████████████████████████████████████████                           | 1664/2599 [4:01:47<1:57:03,  7.51s/it]Merge for (295, 321) already exists in the vocabulary.
+Training BPE:  65%|████████████████████████████████████████████████▉                          | 1698/2599 [4:05:59<1:51:53,  7.45s/it]Merge for (313, 321) already exists in the vocabulary.
+Training BPE:  65%|█████████████████████████████████████████████████                          | 1699/2599 [4:06:07<1:51:03,  7.40s/it]
+Vocab size: 4100: హ + ు = హు
+Training BPE:  67%|██████████████████████████████████████████████████▌                        | 1750/2599 [4:12:21<1:42:27,  7.24s/it]Merge for (277, 2414) already exists in the vocabulary.
+Training BPE:  69%|███████████████████████████████████████████████████▉                       | 1799/2599 [4:18:21<1:36:27,  7.23s/it]
+Vocab size: 4200: పార్ + టీ  = పార్టీ 
+Training BPE:  70%|████████████████████████████████████████████████████▌                      | 1822/2599 [4:21:08<1:34:43,  7.31s/it]Merge for (294, 326) already exists in the vocabulary.
+Training BPE:  70%|████████████████████████████████████████████████████▊                      | 1830/2599 [4:22:07<1:35:05,  7.42s/it]Merge for (300, 330) already exists in the vocabulary.
+Training BPE:  72%|█████████████████████████████████████████████████████▋                     | 1862/2599 [4:26:01<1:29:42,  7.30s/it]Merge for (923, 311) already exists in the vocabulary.
+Training BPE:  73%|██████████████████████████████████████████████████████▍                    | 1888/2599 [4:29:10<1:26:21,  7.29s/it]Merge for (299, 2403) already exists in the vocabulary.
+Training BPE:  73%|██████████████████████████████████████████████████████▊                    | 1899/2599 [4:30:30<1:24:22,  7.23s/it]
+Vocab size: 4300:  సమ + యంలో  =  సమయంలో 
+Training BPE:  74%|███████████████████████████████████████████████████████▎                   | 1918/2599 [4:32:47<1:22:06,  7.23s/it]Merge for (310, 258) already exists in the vocabulary.
+Training BPE:  74%|███████████████████████████████████████████████████████▋                   | 1929/2599 [4:34:06<1:20:24,  7.20s/it]Merge for (300, 332) already exists in the vocabulary.
+Training BPE:  77%|█████████████████████████████████████████████████████████▋                 | 1999/2599 [4:42:31<1:11:27,  7.15s/it]
+Vocab size: 4400: ప్ర + సా = ప్రసా
+Merge for (295, 320) already exists in the vocabulary.
+Training BPE:  78%|██████████████████████████████████████████████████████████▏                | 2016/2599 [4:44:34<1:10:21,  7.24s/it]Merge for (923, 306) already exists in the vocabulary.
+Training BPE:  78%|██████████████████████████████████████████████████████████▎                | 2019/2599 [4:44:55<1:08:38,  7.10s/it]Merge for (1064, 327) already exists in the vocabulary.
+Training BPE:  79%|██████████████████████████████████████████████████████████▉                | 2043/2599 [4:47:47<1:06:17,  7.15s/it]Merge for (300, 322) already exists in the vocabulary.
+Training BPE:  80%|███████████████████████████████████████████████████████████▊               | 2074/2599 [4:51:29<1:03:09,  7.22s/it]Merge for (943, 282) already exists in the vocabulary.
+Training BPE:  81%|██████████████████████████████████████████████████████████████▏              | 2099/2599 [4:54:26<58:57,  7.08s/it]
+Vocab size: 4500:  అ + ధ్యక్షుడు  =  అధ్యక్షుడు 
+Training BPE:  81%|██████████████████████████████████████████████████████████████▍              | 2106/2599 [4:55:16<58:50,  7.16s/it]Merge for (299, 321) already exists in the vocabulary.
+Training BPE:  82%|███████████████████████████████████████████████████████████████▍             | 2140/2599 [4:59:19<55:56,  7.31s/it]Merge for (291, 2414) already exists in the vocabulary.
+Training BPE:  83%|███████████████████████████████████████████████████████████████▉             | 2158/2599 [5:01:26<52:14,  7.11s/it]Merge for (279, 327) already exists in the vocabulary.
+Training BPE:  84%|████████████████████████████████████████████████████████████████▋            | 2182/2599 [5:04:16<49:28,  7.12s/it]Merge for (311, 2414) already exists in the vocabulary.
+Training BPE:  85%|█████████████████████████████████████████████████████████████████▏           | 2199/2599 [5:06:16<46:36,  6.99s/it]
+Vocab size: 4600: దే + శా = దేశా
+Training BPE:  85%|█████████████████████████████████████████████████████████████████▍           | 2207/2599 [5:07:12<45:58,  7.04s/it]Merge for (312, 332) already exists in the vocabulary.
+Training BPE:  86%|██████████████████████████████████████████████████████████████████▏          | 2234/2599 [5:10:23<43:07,  7.09s/it]Merge for (503, 283) already exists in the vocabulary.
+Training BPE:  87%|██████████████████████████████████████████████████████████████████▋          | 2250/2599 [5:12:15<40:04,  6.89s/it]Merge for (310, 320) already exists in the vocabulary.
+Training BPE:  87%|██████████████████████████████████████████████████████████████████▉          | 2258/2599 [5:13:11<40:00,  7.04s/it]Merge for (299, 318) already exists in the vocabulary.
+Training BPE:  88%|████████████████████████████████████████████████████████████████████         | 2299/2599 [5:17:58<34:31,  6.91s/it]
+Vocab size: 4700: ర్ + లో  = ర్లో 
+Training BPE:  91%|██████████████████████████████████████████████████████████████████████▏      | 2367/2599 [5:25:54<26:50,  6.94s/it]Merge for (843, 294) already exists in the vocabulary.
+Training BPE:  92%|███████████████████████████████████████████████████████████████████████      | 2399/2599 [5:29:38<23:13,  6.97s/it]
+Vocab size: 4800: స + ద = సద
+Training BPE:  93%|███████████████████████████████████████████████████████████████████████▌     | 2414/2599 [5:31:22<21:35,  7.01s/it]Merge for (280, 318) already exists in the vocabulary.
+Training BPE:  96%|██████████████████████████████████████████████████████████████████████████   | 2499/2599 [5:41:03<11:12,  6.73s/it]
+Vocab size: 4900: భవిష + ్య = భవిష్య
+Training BPE:  96%|██████████████████████████████████████████████████████████████████████████▏  | 2505/2599 [5:41:43<10:27,  6.67s/it]Merge for (763, 309) already exists in the vocabulary.
+Training BPE:  99%|████████████████████████████████████████████████████████████████████████████▎| 2574/2599 [5:49:29<02:50,  6.84s/it]Merge for (313, 332) already exists in the vocabulary.
+Training BPE: 100%|████████████████████████████████████████████████████████████████████████████▉| 2598/2599 [5:52:10<00:08,  8.13s/it]
+
+Final statistics:
+Final vocabulary size: 4,999
+Number of merges: 2,599
+Final compression ratio: 8.63x
+Training time: 21135.62 seconds
+
+Tokenizer mappings saved to telugu_tokenizer_vocab.json and telugu_tokenizer_merges.json
+
+Test Results:
+Original: తెలుగు భాష
+Encoded: [4149, 4717]
+Decoded: తెలుగు భాష
+Matches original: True
