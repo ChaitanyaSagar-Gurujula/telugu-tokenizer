@@ -90,14 +90,25 @@ async def tokenize(request: TokenizeRequest):
             current_byte_position = word_end
             
             # Add word and its tokens to details
-            token_details.append({
-                "word": word,
-                "type": "complete_word" if len(word_tokens) == 1 else "subword_tokens",
-                "tokens": [{
-                    "id": t,
-                    "text": vocab_data.get(str(t), {}).get('text', '[UNKNOWN]')
-                } for t in word_tokens]
-            })
+            if len(word_tokens) == 1:
+                # Complete word case
+                token_id = word_tokens[0]
+                token_details.append({
+                    "word": word,
+                    "type": "complete_word",
+                    "token_id": token_id,
+                    "text": vocab_data.get(str(token_id), {}).get('text', '[UNKNOWN]')
+                })
+            else:
+                # Subword tokens case
+                token_details.append({
+                    "word": word,
+                    "type": "subword_tokens",
+                    "tokens": [{
+                        "id": t,
+                        "text": vocab_data.get(str(t), {}).get('text', '[UNKNOWN]')
+                    } for t in word_tokens]
+                })
         
         return {
             "original": text,
